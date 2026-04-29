@@ -1,5 +1,7 @@
 # Skill: Generate Interactive HTML Schedule
 
+> **Design system**: Before generating any HTML, apply the **UI UX Pro Max skill** (https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) using the **Minimalist** style. Use its typography pairings (Inter font), spacing system, color palette, and accessibility rules (WCAG AA minimum contrast 4.5:1) to inform all visual decisions in the HTML spec below.
+
 Generate `schedule.html` from `itinerary.md`. Run this command whenever the itinerary changes.
 
 ## What to do
@@ -19,7 +21,8 @@ Generate `schedule.html` from `itinerary.md`. Run this command whenever the itin
   - Date = e.g. `May 1`, `June 15`
   - Location = everything after the `|` on the same line, trimmed
 - Collect all consecutive table rows under that heading until the next `## Day` heading or end of file
-- Ignore HTML comments (`<!-- ... -->`) and lines that don't match the table format
+- If the only content under a day heading is an HTML comment containing the word `placeholder` (e.g. `<!-- placeholder — activities to be added -->`), mark that day as **placeholder** — it has no activities but should still appear in the grid
+- Ignore all other HTML comments and lines that don't match the table format
 
 ### Activity rows
 Each row has 3–4 pipe-delimited columns (ignore the header row and separator row):
@@ -31,13 +34,16 @@ Each row has 3–4 pipe-delimited columns (ignore the header row and separator r
 | Notes    | 3     | No       | Raw text, shown in tooltip/expanded view |
 
 ### Category → colour mapping
+
+Minimalist palette — muted/desaturated tones, WCAG AA contrast on white:
+
 | Category      | CSS colour token |
 |---------------|-----------------|
-| sightseeing   | `#3b82f6` (blue) |
-| food          | `#f97316` (orange) |
+| sightseeing   | `#2563eb` (blue) |
+| food          | `#ea580c` (orange) |
 | travel        | `#6b7280` (gray) |
-| accommodation | `#22c55e` (green) |
-| other         | `#a855f7` (purple) |
+| accommodation | `#16a34a` (green) |
+| other         | `#9333ea` (purple) |
 
 ---
 
@@ -71,9 +77,15 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
   - Line 2: date string (e.g. `May 1`)
   - Line 3: location (smaller, muted)
 - **Activity cells**: if an activity's time falls within a slot, render a coloured card inside that cell
-  - Card background = category colour at 20% opacity, left border 3px solid at full category colour
-  - Card content: activity name (bold, small font), and time in small muted text
+  - Card background = white with `1px solid #e5e7eb` border and `6px` border-radius; left border `2px solid` at full category colour
+  - Card content: activity name (bold, small font), and time in small muted text (`#9ca3af`)
+  - Hover state: subtle `box-shadow: 0 1px 4px rgba(0,0,0,0.08)` transition with `150ms ease`
   - If the Notes column is non-empty, add a `data-notes` attribute and a small ⓘ icon
+- **Placeholder day columns**: if a day is marked as placeholder, render its column with:
+  - Column header styled the same as normal but with `opacity: 0.5`
+  - All cells in that column filled with a `#f9fafb` background and a subtle repeating diagonal stripe pattern (`repeating-linear-gradient(45deg, transparent, transparent 4px, #f3f4f6 4px, #f3f4f6 5px)`)
+  - A single centred pill label "TBD" in the middle row of the column (`color: #9ca3af; font-size: 11px; font-weight: 500; letter-spacing: 0.05em; border: 1px solid #e5e7eb; border-radius: 999px; padding: 2px 8px`)
+  - No hover or click behaviour on placeholder cells
 
 ### Pagination
 
@@ -94,14 +106,19 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 - Below 640px screen width: show only 1 day at a time, with Prev/Next day arrows replacing the page arrows
 - Time column remains sticky on mobile
 
-### Visual polish
+### Visual polish — Minimalist (UI UX Pro Max)
 
-- Background: `#f8fafc`
-- Grid lines: `1px solid #e2e8f0`
-- Header background: `#1e293b` (dark), text white
-- Time column background: `#f1f5f9`
-- Font: system-ui stack (`system-ui, -apple-system, sans-serif`)
-- Scrollbar styling (webkit): thin, subtle
+- **Font**: Load `Inter` from Google Fonts (`https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap`); fallback `system-ui, -apple-system, sans-serif`
+- **Background**: `#ffffff` (pure white)
+- **Grid lines**: `1px solid #f3f4f6` (very light)
+- **Header background**: `#111827` (near-black), text white
+- **Time column background**: `#f9fafb`
+- **Body text**: `#374151`
+- **Muted/secondary text**: `#9ca3af`
+- **Headings**: `letter-spacing: -0.01em`
+- **Transitions**: `150ms ease` on hover states
+- **Scrollbar styling** (webkit): thin, subtle
+- **Accessibility**: `role="grid"` on the table; `aria-label` on Prev/Next buttons; `focus-visible` ring (`outline: 2px solid #2563eb; outline-offset: 2px`) on all interactive elements; all text contrast ≥ 4.5:1 (WCAG AA)
 
 ---
 
@@ -110,7 +127,7 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 Write the completed HTML to `schedule.html` in the project root, overwriting any existing file.
 
 Then reply with a short summary:
-- Number of days parsed
+- Number of days parsed (break down: X with activities, Y placeholder)
 - Total activities
-- Any warnings (missing columns, unknown categories, unparseable times)
+- Any warnings (missing columns, unknown categories, unparseable times) — placeholder days are **not** warnings
 - Confirm `schedule.html` was written successfully

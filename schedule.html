@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>West Coast Trip — Schedule</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #ffffff;
+  color: #374151;
+  min-height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #111827;
+  color: white;
+  padding: 12px 16px;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: white;
+}
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-controls button {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+.nav-controls button:hover:not(:disabled) { background: rgba(255,255,255,0.2); }
+.nav-controls button:disabled { opacity: 0.3; cursor: not-allowed; }
+.nav-controls button:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+#pageIndicator {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  min-width: 80px;
+  text-align: center;
+}
+
+.grid-wrap {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: calc(100vh - 52px);
+}
+.grid-wrap::-webkit-scrollbar { width: 5px; height: 5px; }
+.grid-wrap::-webkit-scrollbar-track { background: #f9fafb; }
+.grid-wrap::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+.grid-wrap::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+.schedule-grid {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: max-content;
+}
+
+.schedule-grid thead th {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #111827;
+  color: white;
+  padding: 10px 8px;
+  border-right: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  text-align: left;
+  vertical-align: top;
+  min-width: 150px;
+}
+.schedule-grid thead th.time-header {
+  min-width: 60px;
+  width: 60px;
+  text-align: center;
+  z-index: 30;
+  left: 0;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+th.placeholder-header { opacity: 0.45; }
+.day-num { font-size: 12px; font-weight: 600; letter-spacing: -0.01em; }
+.day-date { font-size: 11px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+.day-location { font-size: 10px; color: rgba(255,255,255,0.38); margin-top: 2px; font-weight: 400; }
+
+.schedule-grid tbody tr { border-bottom: 1px solid #f3f4f6; }
+.schedule-grid tbody td {
+  padding: 3px;
+  vertical-align: top;
+  border-right: 1px solid #f3f4f6;
+  height: 44px;
+  min-height: 44px;
+}
+.schedule-grid tbody td.time-cell {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  background: #f9fafb;
+  width: 60px;
+  min-width: 60px;
+  text-align: center;
+  font-size: 11px;
+  color: #9ca3af;
+  font-weight: 500;
+  vertical-align: middle;
+  border-right: 1px solid #e5e7eb;
+}
+
+.schedule-grid tbody td.placeholder-cell {
+  background: #f9fafb;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent, transparent 4px,
+    #f0f1f3 4px, #f0f1f3 5px
+  );
+}
+.tbd-pill-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 38px;
+}
+.tbd-pill {
+  color: #9ca3af;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  padding: 2px 8px;
+  background: white;
+}
+
+.activity-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 4px 6px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: box-shadow 150ms ease;
+  position: relative;
+}
+.activity-card:hover { box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.activity-card:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+.activity-card:last-child { margin-bottom: 0; }
+.card-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: #111827;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+.card-time { font-size: 10px; color: #9ca3af; margin-top: 1px; }
+.card-info-icon { font-size: 10px; color: #9ca3af; margin-left: 2px; }
+
+.expanded-panel {
+  display: none;
+  margin-top: 5px;
+  padding: 6px 7px;
+  background: #f9fafb;
+  border-radius: 4px;
+  border: 1px solid #f3f4f6;
+}
+.activity-card.expanded .expanded-panel { display: block; }
+.expanded-notes { font-size: 11px; color: #6b7280; line-height: 1.5; }
+.category-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 1px 6px;
+  border-radius: 999px;
+  margin-top: 5px;
+  color: white;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: 50;
+  bottom: calc(100% + 6px);
+  left: 0;
+  background: #111827;
+  color: white;
+  font-size: 11px;
+  padding: 6px 9px;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  max-width: 230px;
+  line-height: 1.5;
+  pointer-events: none;
+  transition: opacity 150ms ease;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+.activity-card:hover .tooltip-text { visibility: visible; opacity: 1; }
+
+@media (max-width: 640px) {
+  .schedule-grid thead th:not(.time-header) { min-width: calc(100vw - 68px); }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>West Coast Trip</h1>
+    <div class="nav-controls">
+      <button id="prevBtn" aria-label="Previous week" disabled>← Prev</button>
+      <span id="pageIndicator"></span>
+      <button id="nextBtn" aria-label="Next week">Next →</button>
+    </div>
+  </div>
+</header>
+
+<div class="grid-wrap">
+  <table class="schedule-grid" role="grid" aria-label="West Coast Trip Schedule">
+    <thead id="gridHead"></thead>
+    <tbody id="gridBody"></tbody>
+  </table>
+</div>
+
+<script>
+const DAYS_PER_PAGE = 7;
+const TIME_START = 6;
+const TIME_END = 23;
+const TBD_ROW = 14;
+
+const COLORS = {
+  sightseeing: '#2563eb',
+  food: '#ea580c',
+  travel: '#6b7280',
+  accommodation: '#16a34a',
+  other: '#9333ea'
+};
+
+const days = [
+  { num: 1, date: 'Oct 1', location: 'San Francisco, CA', placeholder: true, activities: [] },
+  { num: 2, date: 'Oct 2', location: 'San Francisco, CA', placeholder: true, activities: [] },
+  {
+    num: 3, date: 'Oct 3', location: 'Half Moon Bay & Monterey, CA', placeholder: false,
+    activities: [
+      { time: '08:00', activity: 'Half Moon Bay', category: 'sightseeing', notes: 'Coastal town south of SF — beach walk, sea cliffs, Mavericks surf spot nearby' },
+      { time: '10:30', activity: 'Drive south on Hwy 1', category: 'travel', notes: 'Scenic Pacific Coast Highway south to Monterey (~2 hrs)' },
+      { time: '12:30', activity: 'Monterey', category: 'sightseeing', notes: "Cannery Row, Fisherman's Wharf; grab lunch here" },
+      { time: '14:00', activity: '17-Mile Drive', category: 'sightseeing', notes: 'Toll road through Pebble Beach; Lone Cypress, Ghost Tree, ocean views' },
+      { time: '16:00', activity: 'Carmel-by-the-Sea', category: 'sightseeing', notes: 'Charming village with galleries, boutiques, and a white-sand beach' },
+      { time: '18:30', activity: 'Check in near Monterey', category: 'accommodation', notes: '' }
+    ]
+  },
+  {
+    num: 4, date: 'Oct 4', location: 'Big Sur & SLO Coast, CA', placeholder: false,
+    activities: [
+      { time: '08:00', activity: 'Depart Monterey', category: 'travel', notes: 'Head south on Hwy 1 — fuel up and pack snacks, limited stops ahead' },
+      { time: '09:00', activity: 'Bixby Creek Bridge', category: 'sightseeing', notes: 'One of the most photographed bridges in CA; pull over on the north side for the best shot' },
+      { time: '09:20', activity: 'Hurricane Point Vista', category: 'sightseeing', notes: 'Windy clifftop overlook just south of Bixby with sweeping ocean views' },
+      { time: '09:45', activity: 'Big Sur Vista Point', category: 'sightseeing', notes: 'Classic Big Sur panorama; good spot to stretch before continuing south' },
+      { time: '10:30', activity: 'Pfeiffer Beach', category: 'sightseeing', notes: 'Purple-sand beach down Sycamore Canyon Rd; $12 fee; arrive early for parking' },
+      { time: '12:00', activity: 'McWay Falls', category: 'sightseeing', notes: '80-ft waterfall that drops directly onto the beach; short 0.5 mi walk to overlook' },
+      { time: '14:30', activity: 'Elephant Seal Vista Point', category: 'sightseeing', notes: 'Piedras Blancas — hundreds of elephant seals lounging on the beach year-round' },
+      { time: '15:30', activity: 'Morro Bay', category: 'sightseeing', notes: 'Walk the Embarcadero; Morro Rock volcanic plug dominates the harbour' },
+      { time: '17:00', activity: 'San Luis Obispo', category: 'sightseeing', notes: 'Lively college town — Mission San Luis Obispo, Higuera St for dinner' }
+    ]
+  },
+  {
+    num: 5, date: 'Oct 5', location: 'Solvang, Santa Barbara & Malibu, CA', placeholder: false,
+    activities: [
+      { time: '08:00', activity: 'Depart SLO', category: 'travel', notes: 'Head south on Hwy 101' },
+      { time: '09:00', activity: 'Solvang', category: 'sightseeing', notes: 'Danish village with windmills, bakeries, and half-timbered buildings — grab a pastry' },
+      { time: '11:00', activity: 'Santa Barbara', category: 'sightseeing', notes: 'State Street, Mission Santa Barbara, Stearns Wharf; lunch here' },
+      { time: '14:30', activity: 'Drive to Malibu', category: 'travel', notes: '~1.5 hrs south on Hwy 101 / PCH' },
+      { time: '16:30', activity: 'Malibu Pier', category: 'sightseeing', notes: 'Walk the pier; good late afternoon light over the Pacific' }
+    ]
+  },
+  {
+    num: 6, date: 'Oct 6', location: 'Los Angeles, CA', placeholder: false,
+    activities: [
+      { time: '09:00', activity: 'Walt Disney Concert Hall', category: 'sightseeing', notes: 'Iconic stainless steel exterior; free self-guided audio tour available' },
+      { time: '10:00', activity: 'Cafe hopping', category: 'food', notes: 'Grand Ave / Bunker Hill area cafés' },
+      { time: '11:00', activity: 'The Broad + MOCA + Angels Flight', category: 'sightseeing', notes: 'The Broad needs ~2 hrs; MOCA ~1 hr; Angels Flight is a quick historic funicular ride between' },
+      { time: '13:30', activity: 'Lunch at Grand Central Market', category: 'food', notes: 'Iconic indoor market since 1917 — lots of vendors, arrive hungry' },
+      { time: '15:00', activity: 'The Last Bookstore', category: 'sightseeing', notes: 'Huge independent bookstore with art installations; Spring St' },
+      { time: '16:00', activity: 'Little Tokyo', category: 'sightseeing', notes: 'Japanese Village Plaza, temples, Japanese snacks' },
+      { time: '17:30', activity: 'Arts District', category: 'sightseeing', notes: 'Street art, galleries, independent coffee shops' }
+    ]
+  },
+  {
+    num: 7, date: 'Oct 7', location: 'Venice & Santa Monica, CA', placeholder: false,
+    activities: [
+      { time: '10:00', activity: 'The Getty Villa', category: 'sightseeing', notes: 'Free but advance reservation required — book before the trip; allow ~2.5 hrs' },
+      { time: '13:00', activity: 'Lunch at Gjusta', category: 'food', notes: 'Legendary Venice bakery/deli — sandwiches, pastries, long but worth it' },
+      { time: '15:30', activity: 'Venice Beach Boardwalk', category: 'sightseeing', notes: 'Murals, street performers, skate park — full sensory overload' },
+      { time: '17:00', activity: 'Abbot Kinney Boulevard', category: 'sightseeing', notes: 'Boutiques, galleries, coffee — great golden hour street to wander' },
+      { time: '18:30', activity: 'Santa Monica Pier', category: 'sightseeing', notes: 'Arrive before sunset for the best view; Pacific Park Ferris wheel is iconic' },
+      { time: '20:00', activity: 'Dinner', category: 'food', notes: 'Santa Monica or Venice — plenty of options nearby' }
+    ]
+  },
+  {
+    num: 8, date: 'Oct 8', location: 'Hollywood, CA', placeholder: false,
+    activities: [
+      { time: '07:30', activity: 'Griffith Park Trails', category: 'sightseeing', notes: 'Go early before the heat; Fern Dell or East Observatory Trail are good short options' },
+      { time: '09:00', activity: 'Back to Airbnb — shower', category: 'other', notes: '' },
+      { time: '10:30', activity: 'Brunch', category: 'food', notes: 'Los Feliz or Silver Lake neighbourhood has great brunch spots' },
+      { time: '12:00', activity: 'Lake Hollywood Park', category: 'sightseeing', notes: 'Best view of the Hollywood Sign; corner of Mulholland Hwy & Lake Hollywood Dr' },
+      { time: '13:30', activity: 'Lunch', category: 'food', notes: '' },
+      { time: '14:30', activity: 'Hollywood Walk of Fame + TCL', category: 'sightseeing', notes: 'Check celebrity handprints at TCL; Walk of Fame runs along Hollywood Blvd' },
+      { time: '16:30', activity: 'Griffith Observatory', category: 'sightseeing', notes: 'Drive up or hike; stunning 360° views of LA and the Hollywood Sign' },
+      { time: '19:00', activity: 'Dinner', category: 'food', notes: '' },
+      { time: '21:00', activity: 'Sunset Blvd', category: 'sightseeing', notes: 'The Sunset Strip at night — bars, neon signs, live music venues' }
+    ]
+  },
+  {
+    num: 9, date: 'Oct 9', location: 'Beverly Hills & Fairfax, CA', placeholder: false,
+    activities: [
+      { time: '09:00', activity: 'Beverly Gardens Park', category: 'sightseeing', notes: '1.9 mi park along Santa Monica Blvd; Beverly Hills Sign and rose garden' },
+      { time: '10:00', activity: 'Rodeo Drive', category: 'sightseeing', notes: 'Window shopping and photos; most shops open around 10' },
+      { time: '11:00', activity: 'Erewhon Beverly Hills', category: 'food', notes: 'Grab a smoothie or snack; pricey but iconic' },
+      { time: '11:30', activity: 'South Palm Drive', category: 'sightseeing', notes: 'Classic palm-lined Beverly Hills street — best view looking north' },
+      { time: '12:30', activity: 'The Original Farmers Market', category: 'food', notes: 'At 3rd & Fairfax since 1934 — great spot for lunch across many stalls' },
+      { time: '13:30', activity: 'The Grove', category: 'sightseeing', notes: 'Outdoor shopping complex attached to Farmers Market; fountain and trolley' },
+      { time: '15:00', activity: 'LACMA', category: 'sightseeing', notes: 'Largest art museum in the west; allow 2–3 hrs; Urban Light installation out front' },
+      { time: '19:30', activity: 'Sunset Strip', category: 'sightseeing', notes: 'Iconic stretch of Sunset Blvd through West Hollywood — bars, clubs, live music' }
+    ]
+  },
+  {
+    num: 10, date: 'Oct 10', location: 'Yosemite National Park, CA', placeholder: false,
+    activities: [
+      { time: '08:00', activity: 'Bridalveil Fall', category: 'sightseeing', notes: 'Short 0.5 mi walk from parking lot; can be misty — bring a light jacket' },
+      { time: '08:45', activity: 'El Capitan Meadow + Valley View', category: 'sightseeing', notes: 'Pull over along Northside Drive for unobstructed views of El Capitan' },
+      { time: '09:30', activity: 'Yosemite Falls Trail', category: 'sightseeing', notes: 'Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous' },
+      { time: '12:00', activity: 'Lunch at Yosemite Valley', category: 'food', notes: 'Yosemite Valley Lodge or Village Store grab-and-go' },
+      { time: '13:00', activity: 'Yosemite Valley', category: 'sightseeing', notes: 'Walk the meadows or relax by the Merced River' },
+      { time: '14:00', activity: 'Mirror Lake Loop', category: 'sightseeing', notes: '~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great' },
+      { time: '16:00', activity: 'Sentinel Bridge — Half Dome View', category: 'sightseeing', notes: 'Good late afternoon light on Half Dome' },
+      { time: '16:45', activity: 'Tunnel View', category: 'sightseeing', notes: 'Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall' }
+    ]
+  },
+  {
+    num: 11, date: 'Oct 11', location: 'Kings Canyon & Sequoia NP, CA', placeholder: false,
+    activities: [
+      { time: '07:00', activity: 'General Grant Tree', category: 'sightseeing', notes: "World's second largest tree; go early before tour buses arrive" },
+      { time: '08:30', activity: 'Hume Lake + breakfast picnic', category: 'food', notes: 'Peaceful reservoir ~10 min from Grant Grove; pack breakfast the night before' },
+      { time: '11:00', activity: 'Grizzly Falls + lunch', category: 'food', notes: 'Beautiful roadside waterfall along Hwy 180; pack lunch to eat nearby' },
+      { time: '13:30', activity: 'Roaring River Falls', category: 'sightseeing', notes: 'Short 0.3 mi walk; powerful waterfall especially in early autumn' },
+      { time: '14:30', activity: 'Zumwalt Meadow', category: 'sightseeing', notes: "Stunning 1.5 mi loop near Road's End; towering canyon walls and river views" },
+      { time: '16:30', activity: 'Panoramic Point Overlook', category: 'sightseeing', notes: '2 mi round trip hike from Grant Grove; sweeping views of the Central Valley' },
+      { time: '18:30', activity: 'Check in — Oak Haven Cabin', category: 'accommodation', notes: 'Near Sequoia NP; good base for the area' }
+    ]
+  },
+  {
+    num: 12, date: 'Oct 12', location: 'Sequoia National Park, CA', placeholder: false,
+    activities: [
+      { time: '07:30', activity: 'Tunnel Rock', category: 'sightseeing', notes: 'Quick stop on Generals Hwy near the Foothills entrance' },
+      { time: '08:30', activity: 'Congress Trail', category: 'sightseeing', notes: '2 mi loop through named giant sequoias; relatively flat and easy' },
+      { time: '10:00', activity: 'General Sherman Tree', category: 'sightseeing', notes: "World's largest tree by volume; 0.5 mi walk from upper parking" },
+      { time: '11:30', activity: 'Lunch / picnic at Crescent Meadow', category: 'food', notes: 'Peaceful meadow ringed by sequoias; pack lunch from cabin' },
+      { time: '13:30', activity: 'Giant Forest Museum', category: 'sightseeing', notes: 'Free entry; great context on sequoia ecology before the afternoon hikes' },
+      { time: '14:30', activity: 'Moro Rock', category: 'sightseeing', notes: '350 steps to the summit; 360° views of the Great Western Divide' },
+      { time: '15:30', activity: 'Tunnel Log', category: 'sightseeing', notes: 'Drive or walk through a fallen sequoia on Crescent Meadow Rd' },
+      { time: '17:00', activity: 'Beetle Rock — sunset viewpoint', category: 'sightseeing', notes: 'Flat granite outcropping near Giant Forest Museum; wide open sky for sunset' }
+    ]
+  },
+  {
+    num: 13, date: 'Oct 13', location: 'Silicon Valley & Stanford, CA', placeholder: false,
+    activities: [
+      { time: '09:00', activity: 'Apple Park Visitor Center', category: 'sightseeing', notes: 'Public-facing store with views of the spaceship campus; great architecture and Apple merch' },
+      { time: '11:00', activity: 'Google Visitor Experience', category: 'sightseeing', notes: 'Googleplex in Mountain View; visitor store open to public, colorful bikes and sculptures outside' },
+      { time: '13:00', activity: 'Lunch at The Treehouse', category: 'food', notes: 'On Stanford Campus in Palo Alto' },
+      { time: '14:00', activity: 'Stanford University Campus', category: 'sightseeing', notes: 'Walk the Main Quad, Memorial Church, and the Oval; free to explore' },
+      { time: '15:30', activity: 'Stanford Bookstore', category: 'sightseeing', notes: 'Large campus bookstore with Stanford gear and a good general book section' },
+      { time: '17:00', activity: 'Drive to Hayward + check in', category: 'accommodation', notes: '~30–40 min across the bay from Stanford' }
+    ]
+  },
+  { num: 14, date: 'Oct 14', location: 'San Francisco, CA', placeholder: true, activities: [] }
+];
+
+const totalPages = Math.ceil(days.length / DAYS_PER_PAGE);
+let currentPage = 0;
+
+function esc(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function buildActivityMap(activities) {
+  const map = {};
+  for (const act of activities) {
+    const h = parseInt(act.time.split(':')[0], 10);
+    if (!map[h]) map[h] = [];
+    map[h].push(act);
+  }
+  return map;
+}
+
+function renderCard(act) {
+  const color = COLORS[act.category] || COLORS.other;
+  const hasNotes = act.notes && act.notes.trim().length > 0;
+  const tooltip = hasNotes ? `<div class="tooltip-text">${esc(act.notes)}</div>` : '';
+  const infoIcon = hasNotes ? `<span class="card-info-icon">ⓘ</span>` : '';
+  const expandedContent = `
+    ${hasNotes ? `<div class="expanded-notes">${esc(act.notes)}</div>` : ''}
+    <span class="category-badge" style="background:${color}">${esc(act.category)}</span>`;
+  return `<div class="activity-card" tabindex="0" role="button" aria-label="${esc(act.activity)}" style="border-left:2px solid ${color}">
+    ${tooltip}
+    <div class="card-name">${esc(act.activity)}${infoIcon}</div>
+    <div class="card-time">${esc(act.time)}</div>
+    <div class="expanded-panel">${expandedContent}</div>
+  </div>`;
+}
+
+function render() {
+  const start = currentPage * DAYS_PER_PAGE;
+  const pageDays = days.slice(start, start + DAYS_PER_PAGE);
+  const actMaps = pageDays.map(d => d.placeholder ? {} : buildActivityMap(d.activities));
+
+  // Header
+  let headHtml = '<tr>';
+  headHtml += '<th class="time-header">TIME</th>';
+  for (const day of pageDays) {
+    headHtml += `<th${day.placeholder ? ' class="placeholder-header"' : ''}>
+      <div class="day-num">Day ${day.num}</div>
+      <div class="day-date">${esc(day.date)}</div>
+      <div class="day-location">${esc(day.location)}</div>
+    </th>`;
+  }
+  headHtml += '</tr>';
+  document.getElementById('gridHead').innerHTML = headHtml;
+
+  // Body
+  let bodyHtml = '';
+  for (let h = TIME_START; h <= TIME_END; h++) {
+    bodyHtml += '<tr>';
+    bodyHtml += `<td class="time-cell">${String(h).padStart(2, '0')}:00</td>`;
+    for (let i = 0; i < pageDays.length; i++) {
+      const day = pageDays[i];
+      if (day.placeholder) {
+        if (h === TBD_ROW) {
+          bodyHtml += `<td class="placeholder-cell"><div class="tbd-pill-container"><span class="tbd-pill">TBD</span></div></td>`;
+        } else {
+          bodyHtml += `<td class="placeholder-cell"></td>`;
+        }
+      } else {
+        const acts = actMaps[i][h] || [];
+        bodyHtml += acts.length > 0
+          ? `<td>${acts.map(renderCard).join('')}</td>`
+          : `<td></td>`;
+      }
+    }
+    bodyHtml += '</tr>';
+  }
+  document.getElementById('gridBody').innerHTML = bodyHtml;
+
+  // Page indicator
+  const pageStart = start + 1;
+  const pageEnd = Math.min(start + DAYS_PER_PAGE, days.length);
+  document.getElementById('pageIndicator').textContent = `Week ${currentPage + 1} of ${totalPages}`;
+  document.getElementById('prevBtn').disabled = currentPage === 0;
+  document.getElementById('nextBtn').disabled = currentPage === totalPages - 1;
+
+  // Card interactions
+  document.querySelectorAll('.activity-card').forEach(card => {
+    card.addEventListener('click', e => {
+      e.stopPropagation();
+      const wasExpanded = card.classList.contains('expanded');
+      document.querySelectorAll('.activity-card.expanded').forEach(c => c.classList.remove('expanded'));
+      if (!wasExpanded) card.classList.add('expanded');
+    });
+    card.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); }
+    });
+  });
+}
+
+document.getElementById('prevBtn').addEventListener('click', () => { if (currentPage > 0) { currentPage--; render(); } });
+document.getElementById('nextBtn').addEventListener('click', () => { if (currentPage < totalPages - 1) { currentPage++; render(); } });
+document.addEventListener('click', () => {
+  document.querySelectorAll('.activity-card.expanded').forEach(c => c.classList.remove('expanded'));
+});
+
+render();
+</script>
+</body>
+</html>
