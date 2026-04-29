@@ -21,23 +21,5 @@
 | 17:00 | Coffee at Starbucks Reserve | sightseeing | Original Starbucks on Pike St        |
 | 19:00 | Dinner                | food          | Capitol Hill neighbourhood             |
 
-## Day 2 — May 2 | Seattle, WA
-| Time  | Activity              | Category      | Notes                                  |
-|-------|-----------------------|---------------|----------------------------------------|
-| 09:00 | Breakfast             | food          |                                        |
-| 10:30 | Space Needle          | sightseeing   | Book tickets in advance                |
-| 13:00 | Lunch                 | food          | Seattle Center area                    |
-| 15:00 | Chihuly Garden & Glass | sightseeing  | Right next to Space Needle             |
-| 18:00 | Dinner at waterfront  | food          | Elliott's Oyster House                 |
-
-## Day 3 — May 3 | Drive to Portland, OR
-| Time  | Activity              | Category      | Notes                                  |
-|-------|-----------------------|---------------|----------------------------------------|
-| 08:00 | Breakfast & check out | food          |                                        |
-| 09:30 | Drive to Portland     | travel        | ~3 hrs via I-5 South                   |
-| 13:00 | Arrive Portland       | travel        |                                        |
-| 14:00 | Powell's Books        | sightseeing   | City of Books — budget extra time      |
-| 16:30 | Lunch / coffee        | food          | Pearl District cafés                   |
-| 19:00 | Dinner                | food          | Portland food cart pod                 |
 
 <!-- Add more days below using the same format -->
