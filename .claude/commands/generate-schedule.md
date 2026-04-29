@@ -124,10 +124,10 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 
 ## Output
 
-Write the completed HTML to `schedule.html` in the project root, overwriting any existing file.
+Write the completed HTML to `index.html` in the project root, overwriting any existing file.
 
 Then reply with a short summary:
 - Number of days parsed (break down: X with activities, Y placeholder)
 - Total activities
 - Any warnings (missing columns, unknown categories, unparseable times) — placeholder days are **not** warnings
-- Confirm `schedule.html` was written successfully
+- Confirm `index.html` was written successfully
