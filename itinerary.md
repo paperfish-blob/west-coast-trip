@@ -12,13 +12,41 @@
   Run /generate-schedule to rebuild schedule.html from this file.
 -->
 
-## Day 1 — Oct 1 | San Francisco, CA
-<!-- placeholder — activities to be added -->
+## Day 1 — Oct 1 | Marin & San Francisco, CA
+| Time  | Activity                      | Category    | Notes |
+|-------|-------------------------------|-------------|-------|
+| 08:30 | Drive from Hayward            | travel      | Bay Bridge into SF, then north across the Golden Gate into Marin — ~1 hr total |
+| 09:30 | Battery Spencer               | sightseeing | Marin Headlands overlook just above the Golden Gate — best panoramic view of the bridge and SF skyline; go early before the crowds |
+| 11:00 | Sausalito                     | sightseeing | Charming waterfront village below the headlands — stroll Bridgeway, browse galleries, watch the houseboats |
+| 12:30 | Lunch in Sausalito            | food        | Plenty of cafés and spots along the water — sit outside with bay views |
+| 14:00 | Drive back across Golden Gate | travel      | Head south back into SF through the Presidio to Baker Beach |
+| 14:30 | Baker Beach                   | sightseeing | SF-side beach with the Golden Gate looming directly above — great afternoon light on the bridge |
+| 16:00 | Drive back to Hayward         | travel      | ~30-40 min back across the Bay Bridge |
 
 ## Day 2 — Oct 2 | San Francisco, CA
-<!-- placeholder — activities to be added -->
+| Time  | Activity                  | Category    | Notes |
+|-------|---------------------------|-------------|-------|
+| 09:00 | Drive from Hayward        | travel      | Cross the Bay Bridge into SF — ~30-45 min depending on traffic |
+| 10:00 | Pier 39                   | sightseeing | First stop near the Bay Bridge landing — sea lions on K-Dock, morning bay views, easy parking in the garage nearby |
+| 11:00 | Fisherman's Wharf         | sightseeing | Wander the docks at your own pace — street performers, fresh crab stalls, views of Alcatraz |
+| 12:00 | Clam Chowder              | food        | Grab a chowder cup at any stall along the Wharf — a SF classic, best eaten on the water |
+| 12:30 | Boudin Bakery             | food        | SF sourdough since 1849 — watch the bakers, grab a bread bowl or a fresh loaf to take home |
+| 14:00 | Lombard Street            | sightseeing | Drive up to Russian Hill — walk down the famous crooked one-block hairpin turns, great views at the top |
+| 15:30 | Palace of the Fine Arts   | sightseeing | End the day at the peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light |
 
-## Day 3 — Oct 3 | Half Moon Bay & Monterey, CA
+## Day 3 — Oct 3 | San Francisco, CA
+| Time  | Activity                  | Category    | Notes |
+|-------|---------------------------|-------------|-------|
+| 09:00 | Drive from Hayward        | travel      | Bay Bridge into SF — ~30-45 min |
+| 10:00 | Alamo Square Park         | sightseeing | Painted Ladies straight ahead from the park's east hill — best angle for the classic shot; bring coffee and sit on the grass |
+| 10:45 | The Painted Ladies        | sightseeing | Walk the Steiner St side up close — Victorian row houses with the SF skyline behind; free, no entry needed |
+| 11:30 | Haight-Ashbury            | sightseeing | Stroll the whole strip — vintage boutiques, record shops, murals, 60s energy; budget 2+ hrs to browse without rushing |
+| 13:00 | Amoeba Music              | sightseeing | 1855 Haight St — one of the last great independent record stores; free to browse, used vinyl/CDs for every taste |
+| 14:30 | Lunch on Haight St        | food        | Cheap and easy options all along the strip — grab something and keep walking |
+| 15:30 | Valencia St               | sightseeing | Mission District's main drag — indie bookstores, murals, cafés, relaxed vibe; free to wander |
+| 17:30 | Chase Center              | sightseeing | Walk the waterfront plaza outside — public art, bay views, no ticket needed |
+
+## Day 4 — Oct 4 | Half Moon Bay & Monterey, CA
 | Time  | Activity                  | Category      | Notes                                                          |
 |-------|---------------------------|---------------|----------------------------------------------------------------|
 | 08:00 | Half Moon Bay             | sightseeing   | Coastal town south of SF — beach walk, sea cliffs, Mavericks surf spot nearby |
@@ -28,7 +56,7 @@
 | 16:00 | Carmel-by-the-Sea         | sightseeing   | Charming village with galleries, boutiques, and a white-sand beach |
 | 18:30 | Check in near Monterey    | accommodation |                                                                |
 
-## Day 4 — Oct 4 | Big Sur & SLO Coast, CA
+## Day 5 — Oct 5 | Big Sur & SLO Coast, CA
 | Time  | Activity                              | Category    | Notes                                                               |
 |-------|---------------------------------------|-------------|---------------------------------------------------------------------|
 | 08:00 | Depart Monterey                       | travel      | Head south on Hwy 1 — fuel up and pack snacks, limited stops ahead  |
@@ -41,7 +69,7 @@
 | 15:30 | Morro Bay                             | sightseeing | Walk the Embarcadero; Morro Rock volcanic plug dominates the harbour  |
 | 17:00 | San Luis Obispo                       | sightseeing | Lively college town — Mission San Luis Obispo, Higuera St for dinner  |
 
-## Day 5 — Oct 5 | Solvang, Santa Barbara & Malibu, CA
+## Day 6 — Oct 6 | Solvang, Santa Barbara & Malibu, CA
 | Time  | Activity                  | Category    | Notes                                                               |
 |-------|---------------------------|-------------|---------------------------------------------------------------------|
 | 08:00 | Depart SLO                | travel      | Head south on Hwy 101                                               |
@@ -50,7 +78,7 @@
 | 14:30 | Drive to Malibu           | travel      | ~1.5 hrs south on Hwy 101 / PCH                                     |
 | 16:30 | Malibu Pier               | sightseeing | Walk the pier; good late afternoon light over the Pacific            |
 
-## Day 6 — Oct 6 | Los Angeles, CA
+## Day 7 — Oct 7 | Los Angeles, CA
 | Time  | Activity                             | Category    | Notes                                                  |
 |-------|--------------------------------------|-------------|--------------------------------------------------------|
 | 09:00 | Walt Disney Concert Hall             | sightseeing | Iconic stainless steel exterior; free self-guided audio tour available |
@@ -61,7 +89,7 @@
 | 16:00 | Little Tokyo                         | sightseeing | Japanese Village Plaza, temples, Japanese snacks       |
 | 17:30 | Arts District                        | sightseeing | Street art, galleries, independent coffee shops        |
 
-## Day 7 — Oct 7 | Venice & Santa Monica, CA
+## Day 8 — Oct 8 | Venice & Santa Monica, CA
 | Time  | Activity                  | Category    | Notes                                                        |
 |-------|---------------------------|-------------|--------------------------------------------------------------|
 | 10:00 | The Getty Villa           | sightseeing | Free but advance reservation required — book before the trip; allow ~2.5 hrs |
@@ -71,7 +99,7 @@
 | 18:30 | Santa Monica Pier         | sightseeing | Arrive before sunset for the best view; Pacific Park Ferris wheel is iconic |
 | 20:00 | Dinner                    | food        | Santa Monica or Venice — plenty of options nearby            |
 
-## Day 8 — Oct 8 | Hollywood, CA
+## Day 9 — Oct 9 | Hollywood, CA
 | Time  | Activity                              | Category      | Notes                                                         |
 |-------|---------------------------------------|---------------|---------------------------------------------------------------|
 | 07:30 | Griffith Park Trails — short hike     | sightseeing   | Go early before the heat; Fern Dell or East Observatory Trail are good short options |
@@ -84,7 +112,7 @@
 | 19:00 | Dinner                                | food          |                                                               |
 | 21:00 | Sunset Blvd                           | sightseeing   | The Sunset Strip at night — bars, neon signs, live music venues |
 
-## Day 9 — Oct 9 | Beverly Hills & Fairfax, CA
+## Day 10 — Oct 10 | Beverly Hills & Fairfax, CA
 | Time  | Activity                        | Category    | Notes                                                           |
 |-------|---------------------------------|-------------|-----------------------------------------------------------------|
 | 09:00 | Beverly Gardens Park            | sightseeing | 1.9 mi park along Santa Monica Blvd; Beverly Hills Sign and rose garden |
@@ -96,7 +124,7 @@
 | 15:00 | LACMA                           | sightseeing | Largest art museum in the west; allow 2–3 hrs; Urban Light installation out front |
 | 19:30 | Sunset Strip                    | sightseeing | Iconic stretch of Sunset Blvd through West Hollywood — bars, clubs, live music |
 
-## Day 10 — Oct 10 | Yosemite National Park, CA
+## Day 11 — Oct 11 | Yosemite National Park, CA
 | Time  | Activity                          | Category    | Notes                                              |
 |-------|-----------------------------------|-------------|----------------------------------------------------|
 | 08:00 | Bridalveil Fall                   | sightseeing | Short 0.5 mi walk from parking lot; can be misty — bring a light jacket |
@@ -108,7 +136,7 @@
 | 16:00 | Sentinel Bridge — Half Dome View  | sightseeing | Good late afternoon light on Half Dome             |
 | 16:45 | Tunnel View                       | sightseeing | Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall |
 
-## Day 11 — Oct 11 | Kings Canyon & Sequoia NP, CA
+## Day 12 — Oct 12 | Kings Canyon & Sequoia NP, CA
 | Time  | Activity                          | Category      | Notes                                                        |
 |-------|-----------------------------------|---------------|--------------------------------------------------------------|
 | 07:00 | General Grant Tree                | sightseeing   | World's second largest tree; go early before tour buses arrive |
@@ -119,7 +147,7 @@
 | 16:30 | Panoramic Point Overlook          | sightseeing   | 2 mi round trip hike from Grant Grove; sweeping views of the Central Valley |
 | 18:30 | Check in — Oak Haven Cabin        | accommodation | Near Sequoia NP; good base for the area                      |
 
-## Day 12 — Oct 12 | Sequoia National Park, CA
+## Day 13 — Oct 13 | Sequoia National Park, CA
 | Time  | Activity                          | Category    | Notes                                                          |
 |-------|-----------------------------------|-------------|----------------------------------------------------------------|
 | 07:30 | Tunnel Rock                       | sightseeing | Quick stop on Generals Hwy near the Foothills entrance         |
@@ -131,7 +159,16 @@
 | 15:30 | Tunnel Log                        | sightseeing | Drive or walk through a fallen sequoia on Crescent Meadow Rd    |
 | 17:00 | Beetle Rock — sunset viewpoint    | sightseeing | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
 
-## Day 13 — Oct 13 | Silicon Valley & Stanford, CA
+## Day 14 — Oct 14 | Livermore, CA
+| Time  | Activity                          | Category    | Notes |
+|-------|-----------------------------------|-------------|-------|
+| 09:30 | Drive from Hayward                | travel      | ~25-30 min east on I-580 to Livermore — no bridge traffic |
+| 10:00 | San Francisco Premium Outlets     | sightseeing | Opens at 10am — 180+ outlet stores including Nike, Coach, Michael Kors, Kate Spade, Levi's, and more |
+| 12:30 | Lunch at the outlets              | food        | Several dining options on-site — grab a bite and keep going |
+| 13:30 | Continue shopping                 | sightseeing | Afternoon is the best time to hit the bigger anchor stores before crowds thin out |
+| 17:00 | Drive back to Hayward             | travel      | ~25-30 min back on I-580 |
+
+## Day 15 — Oct 15 | Silicon Valley & Stanford, CA
 | Time  | Activity                             | Category      | Notes                                                          |
 |-------|--------------------------------------|---------------|----------------------------------------------------------------|
 | 09:00 | Apple Park Visitor Center            | sightseeing   | Public-facing store with views of the spaceship campus; great architecture and Apple merch |
@@ -141,7 +178,17 @@
 | 15:30 | Stanford Bookstore                   | sightseeing   | Large campus bookstore with Stanford gear and a good general book section |
 | 17:00 | Drive to Hayward + check in          | accommodation | ~30–40 min across the bay from Stanford                       |
 
-## Day 14 — Oct 14 | San Francisco, CA
-<!-- placeholder — activities to be added -->
+## Day 16 — Oct 16 | San Francisco, CA
+| Time  | Activity                  | Category    | Notes |
+|-------|---------------------------|-------------|-------|
+| 09:00 | Drive from Hayward        | travel      | Bay Bridge into SF — ~30-45 min; park near the Embarcadero |
+| 10:00 | Ferry Building            | sightseeing | Marketplace along the waterfront — local vendors, coffee, bakeries; great morning energy even without the Saturday market |
+| 11:00 | Chinatown                 | sightseeing | Enter through Dragon Gate on Grant Ave — fortune cookie factory, herb shops, dim sum bakeries, easy to wander |
+| 12:30 | Lunch in Chinatown        | food        | Tons of cheap, authentic options along Grant Ave and surrounding streets |
+| 13:30 | Coit Tower                | sightseeing | Drive or take a rideshare up Telegraph Hill — panoramic bay views, free to walk the grounds; murals inside ($15 if you go up) |
+| 14:30 | Cable Car                 | travel      | Catch the California St line from the base of Nob Hill — classic SF experience, $8 per ride |
+| 15:00 | 890 California St         | sightseeing | Nob Hill stop along the cable car route |
+| 15:30 | Union Square              | sightseeing | SF's main shopping hub — department stores, boutiques, designer brands; take your time, end the trip here |
+| 18:00 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
 
 <!-- Add more days below using the same format -->
