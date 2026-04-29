@@ -89,11 +89,9 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 
 ### Pagination
 
-- Show 7 days per page
-- Calculate total pages: `Math.ceil(totalDays / 7)`
-- Prev/Next buttons in the header; disable Prev on page 1, disable Next on last page
-- Page indicator: `Week 1 of 2` (or `Days 1–7 of 12`, whichever reads better)
-- Navigation is pure JS — no page reload, just hide/show columns
+- No pagination — render all days in a single horizontally scrollable grid
+- No Prev/Next buttons; remove the page indicator
+- The `<div.grid-wrap>` should have `overflow-x: auto` so the user can scroll right to see all days
 
 ### Interactivity
 
@@ -108,8 +106,8 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 
 ### Responsive
 
-- Below 640px screen width: show only 1 day at a time, with Prev/Next day arrows replacing the page arrows
-- Time column remains sticky on mobile
+- Below 640px screen width: the grid scrolls horizontally — no day hiding or arrows needed
+- Time column remains sticky on mobile (`position: sticky; left: 0`)
 
 ### Visual polish — Minimalist (UI UX Pro Max)
 
