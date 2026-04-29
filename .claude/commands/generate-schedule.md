@@ -97,8 +97,7 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 
 - **Hover** on an activity card: show a tooltip with the Notes text (if any). Use a CSS tooltip (`:hover + .tooltip`) — no JS required for this
 - **Click** on an activity card: toggle an `.expanded` class that shows a detail panel below the card with:
-  - An image fetched from Unsplash using the activity name and day location as the search query:
-    `https://source.unsplash.com/featured/400x200?{activity}+{location}` (URL-encode both values)
+  - A static image URL embedded directly in the HTML at generation time — no runtime fetch. Before writing the HTML, use WebSearch to find a real permanent publicly-accessible photo URL for each unique activity + location (good sources: Unsplash direct CDN `images.unsplash.com/photo-…`, Wikimedia Commons `upload.wikimedia.org/wikipedia/commons/…`, or the National Park Service media library). Embed the resolved URL as the `src` of the `<img>` tag in that card's data attribute. If no suitable URL can be found for an activity, omit the image for that card rather than falling back to a placeholder service.
   - Full Notes text below the image
   - Category badge
   - If the image fails to load (`onerror`), hide the `<img>` element gracefully — no broken icon

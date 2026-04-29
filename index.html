@@ -231,6 +231,75 @@ const DAYS = [
   ]}
 ];
 
+const W = 'https://upload.wikimedia.org/wikipedia/commons/thumb/';
+const IMGS = {
+  "Battery Spencer":                  W+'0/05/Marin-headlands-3jul2005.jpg/330px-Marin-headlands-3jul2005.jpg',
+  "Sausalito":                        W+'e/e0/Sausalito.jpg/330px-Sausalito.jpg',
+  "Lunch in Sausalito":               W+'e/e0/Sausalito.jpg/330px-Sausalito.jpg',
+  "Baker Beach":                      W+'a/af/BakeBeachAtMidday.jpg/330px-BakeBeachAtMidday.jpg',
+  "Pier 39":                          W+'6/65/Pier_39_in_2021.jpg/330px-Pier_39_in_2021.jpg',
+  "Fisherman's Wharf":                W+'a/ae/Fishermans_Wharf_Sign%2C_SF%2C_CA%2C_jjron_25.03.2012.jpg/330px-Fishermans_Wharf_Sign%2C_SF%2C_CA%2C_jjron_25.03.2012.jpg',
+  "Clam Chowder":                     W+'a/ae/Fishermans_Wharf_Sign%2C_SF%2C_CA%2C_jjron_25.03.2012.jpg/330px-Fishermans_Wharf_Sign%2C_SF%2C_CA%2C_jjron_25.03.2012.jpg',
+  "Lombard Street":                   W+'d/d1/Lombard_Street_2020.jpg/330px-Lombard_Street_2020.jpg',
+  "Palace of the Fine Arts":          W+'1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/330px-Palace_of_Fine_Arts_%2816794p%29.jpg',
+  "Alamo Square Park":                W+'5/5d/Alamo_Square_with_Painted_Ladies%2C_SF%2C_CA%2C_jjron_26.03.2012.jpg/330px-Alamo_Square_with_Painted_Ladies%2C_SF%2C_CA%2C_jjron_26.03.2012.jpg',
+  "The Painted Ladies":               W+'5/5d/Alamo_Square_with_Painted_Ladies%2C_SF%2C_CA%2C_jjron_26.03.2012.jpg/330px-Alamo_Square_with_Painted_Ladies%2C_SF%2C_CA%2C_jjron_26.03.2012.jpg',
+  "Haight-Ashbury":                   W+'6/6b/SF_Haight_Ashbury_2_CA.jpg/330px-SF_Haight_Ashbury_2_CA.jpg',
+  "Amoeba Music":                     W+'f/f1/AmoebaRecordsHollywood01.jpg/330px-AmoebaRecordsHollywood01.jpg',
+  "Half Moon Bay":                    W+'2/29/2009_aerial_view_of_Pillar_Point_Harbor_and_Bluff.jpg/330px-2009_aerial_view_of_Pillar_Point_Harbor_and_Bluff.jpg',
+  "Monterey":                         W+'b/b7/Santa_Catalina_School%2C_Monterey%2C_CA_%28cropped%29.jpg/330px-Santa_Catalina_School%2C_Monterey%2C_CA_%28cropped%29.jpg',
+  "17-Mile Drive":                    W+'8/86/17-mile_drive_1.jpg/330px-17-mile_drive_1.jpg',
+  "Carmel-by-the-Sea":                W+'a/a7/Carmel_Mission_Church.jpg/330px-Carmel_Mission_Church.jpg',
+  "Bixby Creek Bridge":               W+'c/ca/Bixby_Creek_Bridge%2C_California%2C_USA_-_May_2013.jpg/330px-Bixby_Creek_Bridge%2C_California%2C_USA_-_May_2013.jpg',
+  "Hurricane Point Vista Point":      W+'c/ca/Bixby_Creek_Bridge%2C_California%2C_USA_-_May_2013.jpg/330px-Bixby_Creek_Bridge%2C_California%2C_USA_-_May_2013.jpg',
+  "Big Sur Vista Point":              W+'c/ca/Bixby_Creek_Bridge%2C_California%2C_USA_-_May_2013.jpg/330px-Bixby_Creek_Bridge%2C_California%2C_USA_-_May_2013.jpg',
+  "Pfeiffer Beach":                   W+'d/d5/Pfieffer_Beach.jpg/330px-Pfieffer_Beach.jpg',
+  "McWay Falls":                      W+'7/72/McWay_Falls_Big_Sur_September_2012_002.jpg/330px-McWay_Falls_Big_Sur_September_2012_002.jpg',
+  "Morro Bay":                        W+'a/aa/Morrow_Bay_2012_2.jpg/330px-Morrow_Bay_2012_2.jpg',
+  "San Luis Obispo":                  W+'8/86/Mission_San_Luis_Obispo_%28cropped%29.jpg/330px-Mission_San_Luis_Obispo_%28cropped%29.jpg',
+  "Solvang":                          W+'c/cd/Tivoli_Square_Solvang.jpg/330px-Tivoli_Square_Solvang.jpg',
+  "Santa Barbara":                    W+'d/de/Santa_Barbara_Downtown_%28may_2012%29_%282%29_%28cropped%29.jpg/330px-Santa_Barbara_Downtown_%28may_2012%29_%282%29_%28cropped%29.jpg',
+  "Malibu Pier":                      W+'8/87/Pier_east.png/330px-Pier_east.png',
+  "Walt Disney Concert Hall":         W+'8/8c/Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg/330px-Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg',
+  "The Broad + MOCA + Angels Flight": W+'c/c7/Nighttime_view_of_the_Broad_in_LA%2C_corner_dllu.jpg/330px-Nighttime_view_of_the_Broad_in_LA%2C_corner_dllu.jpg',
+  "Lunch at Grand Central Market":    W+'f/fe/Grand_central_market.jpg/330px-Grand_central_market.jpg',
+  "Little Tokyo":                     W+'0/01/11-11-06-FarEastCafe-LittleTokyo.jpg/330px-11-11-06-FarEastCafe-LittleTokyo.jpg',
+  "The Getty Villa":                  W+'4/4e/060807-002-GettyVilla001.jpg/330px-060807-002-GettyVilla001.jpg',
+  "Abbot Kinney Boulevard":           W+'c/c9/Looking_down_Abbot_Kinney.jpg/330px-Looking_down_Abbot_Kinney.jpg',
+  "Santa Monica Pier":                W+'3/36/Santa_monica_pier_entrance_evening.jpg/330px-Santa_monica_pier_entrance_evening.jpg',
+  "Griffith Park Trails":             W+'1/1b/Ferndell_griffith_park.jpg/330px-Ferndell_griffith_park.jpg',
+  "Lake Hollywood Park":              W+'5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/330px-Hollywood_Sign_%28Zuschnitt%29.jpg',
+  "Hollywood Walk of Fame + TCL":     W+'2/25/Grauman%27s_Chinese_Theatre%2C_by_Carol_Highsmith_fixed_%26_straightened.jpg/330px-Grauman%27s_Chinese_Theatre%2C_by_Carol_Highsmith_fixed_%26_straightened.jpg',
+  "Griffith Observatory":             W+'1/1b/Ferndell_griffith_park.jpg/330px-Ferndell_griffith_park.jpg',
+  "Sunset Blvd":                      W+'f/f9/Sunset_Tower%2C_8358_Sunset_Blvd._West_Hollywood_2383.jpg/330px-Sunset_Tower%2C_8358_Sunset_Blvd._West_Hollywood_2383.jpg',
+  "Beverly Gardens Park":             W+'a/ab/Beverly_Gardens_Park%2C_LA%2C_CA%2C_jjron_21.03.2012.jpg/330px-Beverly_Gardens_Park%2C_LA%2C_CA%2C_jjron_21.03.2012.jpg',
+  "Rodeo Drive":                      W+'1/12/Rodeo_Drive%2C_Beverly_Hills%2C_LA%2C_CA%2C_jjron_21.03.2012.jpg/330px-Rodeo_Drive%2C_Beverly_Hills%2C_LA%2C_CA%2C_jjron_21.03.2012.jpg',
+  "LACMA":                            W+'0/04/LACMA-Los-Angeles-County-Museum-of-Art-04-2014.jpg/330px-LACMA-Los-Angeles-County-Museum-of-Art-04-2014.jpg',
+  "Sunset Strip":                     W+'f/f9/Sunset_Tower%2C_8358_Sunset_Blvd._West_Hollywood_2383.jpg/330px-Sunset_Tower%2C_8358_Sunset_Blvd._West_Hollywood_2383.jpg',
+  "Bridalveil Fall":                  W+'7/73/Bridelveil_Falls_Yosemite.jpg/330px-Bridelveil_Falls_Yosemite.jpg',
+  "El Capitan Meadow + Valley View":  W+'6/66/El_Capitan_en_Californie.jpg/330px-El_Capitan_en_Californie.jpg',
+  "Yosemite Falls Trail":             W+'3/38/Yosemite_falls_winter_2010.JPG/330px-Yosemite_falls_winter_2010.JPG',
+  "Yosemite Valley":                  W+'6/66/El_Capitan_en_Californie.jpg/330px-El_Capitan_en_Californie.jpg',
+  "Mirror Lake Loop":                 W+'8/84/Half_Dome_with_Eastern_Yosemite_Valley_%28Zuschnitt%29.jpg/330px-Half_Dome_with_Eastern_Yosemite_Valley_%28Zuschnitt%29.jpg',
+  "Sentinel Bridge — Half Dome View": W+'8/84/Half_Dome_with_Eastern_Yosemite_Valley_%28Zuschnitt%29.jpg/330px-Half_Dome_with_Eastern_Yosemite_Valley_%28Zuschnitt%29.jpg',
+  "Tunnel View":                      W+'1/13/Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg/330px-Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg',
+  "General Grant Tree":               W+'3/3a/KingsCanyonNP.JPG/330px-KingsCanyonNP.JPG',
+  "Roaring River Falls":              W+'3/3a/KingsCanyonNP.JPG/330px-KingsCanyonNP.JPG',
+  "Zumwalt Meadow":                   W+'3/3a/KingsCanyonNP.JPG/330px-KingsCanyonNP.JPG',
+  "Panoramic Point Overlook":         W+'3/3a/KingsCanyonNP.JPG/330px-KingsCanyonNP.JPG',
+  "General Sherman Tree":             W+'7/75/General_Sherman_en_californie_a_s%C3%A9quoia_parc.jpg/330px-General_Sherman_en_californie_a_s%C3%A9quoia_parc.jpg',
+  "Congress Trail":                   W+'7/75/General_Sherman_en_californie_a_s%C3%A9quoia_parc.jpg/330px-General_Sherman_en_californie_a_s%C3%A9quoia_parc.jpg',
+  "Moro Rock":                        W+'c/c6/Moro_Rock-View_from_Potwisha.jpg/330px-Moro_Rock-View_from_Potwisha.jpg',
+  "Beetle Rock — sunset viewpoint":   W+'c/c6/Moro_Rock-View_from_Potwisha.jpg/330px-Moro_Rock-View_from_Potwisha.jpg',
+  "Apple Park Visitor Center":        W+'5/5a/Aerial_view_of_Apple_Park_dllu.jpg/330px-Aerial_view_of_Apple_Park_dllu.jpg',
+  "Stanford University Campus":       W+'a/a6/Stanford_Memorial_Church_%282025%29-L1007381.jpg/330px-Stanford_Memorial_Church_%282025%29-L1007381.jpg',
+  "Stanford Bookstore":               W+'a/a6/Stanford_Memorial_Church_%282025%29-L1007381.jpg/330px-Stanford_Memorial_Church_%282025%29-L1007381.jpg',
+  "Ferry Building":                   W+'0/0c/San_Francisco_Ferry_Building_%28cropped%29.jpg/330px-San_Francisco_Ferry_Building_%28cropped%29.jpg',
+  "Chinatown":                        W+'7/75/San_Francisco_China_Town_MC.jpg/330px-San_Francisco_China_Town_MC.jpg',
+  "Coit Tower":                       W+'f/fc/Coit_Tower_1.jpg/330px-Coit_Tower_1.jpg',
+  "Union Square":                     W+'0/04/San_Francisco_Union_Square.jpg/330px-San_Francisco_Union_Square.jpg',
+};
+
 const HOURS = [];
 for (let i = 6; i <= 23; i++) HOURS.push(i);
 
@@ -274,9 +343,7 @@ HOURS.forEach(hour => {
     const inSlot = day.acts.filter(a => parseInt(a.t.split(':')[0]) === hour);
     inSlot.forEach(act => {
       const cat = act.cat || 'other';
-      const locShort = day.loc.replace(/,\s*CA$/, '').replace(/,.*$/, '');
-      const imgQuery = encodeURIComponent(act.name + ' ' + locShort);
-      const imgSrc = `https://source.unsplash.com/featured/400x200?${imgQuery}`;
+      const imgSrc = IMGS[act.name] || '';
 
       const card = document.createElement('div');
       card.className = `card c-${cat}`;
@@ -306,9 +373,14 @@ const pBadge   = document.getElementById('detail-badge');
 let activeCard = null;
 
 function showPanel(card) {
-  pImg.style.display = 'block';
-  pImg.src = card.dataset.img;
-  pImg.onerror = () => { pImg.style.display = 'none'; };
+  if (card.dataset.img) {
+    pImg.src = card.dataset.img;
+    pImg.style.display = 'block';
+    pImg.onerror = () => { pImg.style.display = 'none'; };
+  } else {
+    pImg.style.display = 'none';
+    pImg.src = '';
+  }
   pTitle.textContent = card.dataset.name;
   pTimeRow.textContent = card.dataset.time;
   pNotes.textContent = card.dataset.notes;
