@@ -98,7 +98,12 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 ### Interactivity
 
 - **Hover** on an activity card: show a tooltip with the Notes text (if any). Use a CSS tooltip (`:hover + .tooltip`) — no JS required for this
-- **Click** on an activity card: toggle an `.expanded` class that shows a detail panel below the card with full Notes text and category badge
+- **Click** on an activity card: toggle an `.expanded` class that shows a detail panel below the card with:
+  - An image fetched from Unsplash using the activity name and day location as the search query:
+    `https://source.unsplash.com/featured/400x200?{activity}+{location}` (URL-encode both values)
+  - Full Notes text below the image
+  - Category badge
+  - If the image fails to load (`onerror`), hide the `<img>` element gracefully — no broken icon
 - Clicking elsewhere on the page closes any open expanded card
 
 ### Responsive
@@ -117,6 +122,7 @@ Produce a **single self-contained HTML file** — no external CSS or JS files, n
 - **Muted/secondary text**: `#9ca3af`
 - **Headings**: `letter-spacing: -0.01em`
 - **Transitions**: `150ms ease` on hover states
+- **Activity image** (in expanded panel): `width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; display: block`; hidden via `display: none` on `onerror`
 - **Scrollbar styling** (webkit): thin, subtle
 - **Accessibility**: `role="grid"` on the table; `aria-label` on Prev/Next buttons; `focus-visible` ring (`outline: 2px solid #2563eb; outline-offset: 2px`) on all interactive elements; all text contrast ≥ 4.5:1 (WCAG AA)
 
