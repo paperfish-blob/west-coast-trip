@@ -81,7 +81,7 @@
 | 11:00 | Santa Barbara             | sightseeing | State Street, Mission Santa Barbara, Stearns Wharf; lunch here      |
 | 14:30 | Drive to Malibu           | travel      | ~1.5 hrs south on Hwy 101 / PCH                                     |
 | 16:30 | Malibu Pier               | sightseeing | Walk the pier; good late afternoon light over the Pacific            |
-| 17:30 | Drive to Santa Monica     | travel      | Head east from Malibu on PCH toward Santa Monica — ~1 hr depending on traffic |
+| 17:30 | Drive to Santa Monica     | travel      | Head south from Malibu on PCH toward Santa Monica — ~1 hr depending on traffic |
 | 18:30 | Stay in Santa Monica      | accommodation | **Airbnb/VRBO** — Search for 2-bedroom apartments or houses ($150–250/night whole place, $30–60/person for 4-5 people). Kitchen saves on meals. Close to The Getty Villa & Day 7 activities. |
 
 ## Day 7 — Oct 7 | Venice & Santa Monica, CA
