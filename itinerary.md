@@ -81,6 +81,7 @@
 | 11:00 | Santa Barbara             | sightseeing | State Street, Mission Santa Barbara, Stearns Wharf; lunch here      |
 | 14:30 | Drive to Malibu           | travel      | ~1.5 hrs south on Hwy 101 / PCH                                     |
 | 16:30 | Malibu Pier               | sightseeing | Walk the pier; good late afternoon light over the Pacific            |
+| 17:30 | Drive to LA               | travel      | Head east from Malibu on PCH toward LA — ~1-1.5 hrs depending on traffic |
 
 ## Day 7 — Oct 7 | Los Angeles, CA
 | Time  | Activity                             | Category    | Notes                                                  |
