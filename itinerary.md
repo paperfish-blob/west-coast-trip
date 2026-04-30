@@ -125,8 +125,8 @@
 | 09:00 | Beverly Gardens Park            | sightseeing | 1.9 mi park along Santa Monica Blvd; Beverly Hills Sign and rose garden |
 | 10:00 | Rodeo Drive                     | sightseeing | Window shopping and photos; most shops open around 10           |
 | 11:00 | Erewhon Beverly Hills           | food        | Grab a smoothie or snack; pricey but iconic                     |
-| 11:30 | South Palm Drive                | sightseeing | Classic palm-lined Beverly Hills street — best view looking north |
-| 12:30 | The Original Farmers Market     | food        | At 3rd & Fairfax since 1934 — great spot for lunch across many stalls |
+| 11:15 | South Palm Drive                | sightseeing | Classic palm-lined Beverly Hills street — quick photo stop (~15-20 min) |
+| 11:30 | The Original Farmers Market     | food        | At 3rd & Fairfax since 1934 — great spot for lunch across many stalls |
 | 13:30 | The Grove                       | sightseeing | Outdoor shopping complex attached to Farmers Market; fountain and trolley |
 | 15:15 | LACMA                           | sightseeing | Urban Light installation out front — quick photo stop only (~15-20 min) |
 | 16:00 | Drive to Three Rivers           | travel      | ~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs |
