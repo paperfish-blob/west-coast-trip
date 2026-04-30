@@ -71,6 +71,7 @@
 | 14:30 | Elephant Seal Vista Point             | sightseeing | Piedras Blancas — hundreds of elephant seals lounging on the beach year-round |
 | 15:30 | Morro Bay                             | sightseeing | Walk the Embarcadero; Morro Rock volcanic plug dominates the harbour  |
 | 17:00 | San Luis Obispo                       | sightseeing | Lively college town — Mission San Luis Obispo, Higuera St for dinner  |
+| 18:00 | Stay in San Luis Obispo               | accommodation |                                                                |
 
 ## Day 6 — Oct 6 | Solvang, Santa Barbara & Malibu, CA
 | Time  | Activity                  | Category    | Notes                                                               |
