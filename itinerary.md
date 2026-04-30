@@ -122,8 +122,9 @@
 | 11:30 | South Palm Drive                | sightseeing | Classic palm-lined Beverly Hills street — best view looking north |
 | 12:30 | The Original Farmers Market     | food        | At 3rd & Fairfax since 1934 — great spot for lunch across many stalls |
 | 13:30 | The Grove                       | sightseeing | Outdoor shopping complex attached to Farmers Market; fountain and trolley |
-| 15:00 | LACMA                           | sightseeing | Largest art museum in the west; allow 2–3 hrs; Urban Light installation out front |
-| 19:30 | Sunset Strip                    | sightseeing | Iconic stretch of Sunset Blvd through West Hollywood — bars, clubs, live music |
+| 15:00 | LACMA                           | sightseeing | Urban Light installation out front; keep to ~1 hr so you can hit the road by 16:00 |
+| 16:00 | Drive to Three Rivers           | travel      | ~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs |
+| 20:00 | Check in near Sequoia           | accommodation | Three Rivers or Visalia — good base for an early park start the next morning |
 
 ## Day 11 — Oct 11 | Sequoia National Park, CA
 | Time  | Activity                          | Category    | Notes                                                          |
