@@ -54,8 +54,8 @@
 | 07:00 | Drive from Hayward        | travel        | Head south on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~45-60 min |
 | 08:00 | Half Moon Bay             | sightseeing   | Coastal town south of SF — beach walk, sea cliffs, Mavericks surf spot nearby |
 | 10:30 | Drive south on Hwy 1      | travel        | Scenic Pacific Coast Highway south to Monterey (~2 hrs)        |
-| 12:30 | Monterey                  | sightseeing   | Cannery Row, Fisherman's Wharf; grab lunch here                |
-| 14:00 | 17-Mile Drive             | sightseeing   | Toll road through Pebble Beach; Lone Cypress, Ghost Tree, ocean views |
+| 12:30 | Monterey lunch            | food          | Quick Cannery Row walk + lunch by the water                    |
+| 13:30 | 17-Mile Drive             | sightseeing   | Scenic toll road through Pebble Beach; pull over for Lone Cypress, Ghost Tree, ocean views |
 | 16:00 | Carmel-by-the-Sea         | sightseeing   | Charming village with galleries, boutiques, and a white-sand beach |
 | 18:30 | Check in near Monterey    | accommodation |                                                                |
 
