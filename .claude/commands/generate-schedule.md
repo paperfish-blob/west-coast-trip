@@ -41,7 +41,7 @@ Minimalist palette — muted/desaturated tones, WCAG AA contrast on white:
 |---------------|-----------------|
 | sightseeing   | `#2563eb` (blue) |
 | food          | `#ea580c` (orange) |
-| travel        | `#6b7280` (gray) |
+| travel        | `#ca8a04` (yellow) |
 | accommodation | `#16a34a` (green) |
 | other         | `#9333ea` (purple) |
 
