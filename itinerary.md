@@ -174,12 +174,13 @@
 ## Day 15 — Oct 15 | Silicon Valley & Stanford, CA
 | Time  | Activity                             | Category      | Notes                                                          |
 |-------|--------------------------------------|---------------|----------------------------------------------------------------|
-| 09:00 | Apple Park Visitor Center            | sightseeing   | Public-facing store with views of the spaceship campus; great architecture and Apple merch |
-| 11:00 | Google Visitor Experience            | sightseeing   | Googleplex in Mountain View; visitor store open to public, colorful bikes and sculptures outside |
-| 13:00 | Lunch at The Treehouse               | food          | On Stanford Campus in Palo Alto                                |
-| 14:00 | Stanford University Campus           | sightseeing   | Walk the Main Quad, Memorial Church, and the Oval; free to explore |
-| 15:30 | Stanford Bookstore                   | sightseeing   | Large campus bookstore with Stanford gear and a good general book section |
-| 17:00 | Drive to Hayward + check in          | accommodation | ~30–40 min across the bay from Stanford                       |
+| 09:15 | Drive from Hayward                   | travel        | Head south on I-880 to I-237 / Lawrence Expressway into Cupertino — ~40 min |
+| 10:00 | Apple Park Visitor Center            | sightseeing   | Public-facing store with views of the spaceship campus; great architecture and Apple merch |
+| 11:30 | Google Visitor Experience            | sightseeing   | Outdoor photo stop only — colorful bikes, Android statues, Googleplex grounds; 15 min, no public access inside |
+| 12:00 | Lunch near Stanford                  | food          | ~15 min drive from Google to Palo Alto — University Ave or California Ave have great options |
+| 13:00 | Stanford University Campus           | sightseeing   | Walk the Main Quad, Memorial Church, and the Oval; free to explore |
+| 14:30 | Stanford Bookstore                   | sightseeing   | Large campus bookstore with Stanford gear and a good general book section |
+| 17:00 | Drive to Hayward                     | travel        | ~30–40 min across the bay from Stanford                       |
 
 ## Day 16 — Oct 16 | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
