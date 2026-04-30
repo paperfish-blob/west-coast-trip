@@ -33,6 +33,7 @@
 | 12:30 | Boudin Bakery             | food        | SF sourdough since 1849 — watch the bakers, grab a bread bowl or a fresh loaf to take home |
 | 14:00 | Lombard Street            | sightseeing | Drive up to Russian Hill — walk down the famous crooked one-block hairpin turns, great views at the top |
 | 15:30 | Palace of the Fine Arts   | sightseeing | End the day at the peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light |
+| 16:30 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
 
 ## Day 3 — Oct 3 | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
@@ -45,6 +46,7 @@
 | 14:30 | Lunch on Haight St        | food        | Cheap and easy options all along the strip — grab something and keep walking |
 | 15:30 | Valencia St               | sightseeing | Mission District's main drag — indie bookstores, murals, cafés, relaxed vibe; free to wander |
 | 17:30 | Chase Center              | sightseeing | Walk the waterfront plaza outside — public art, bay views, no ticket needed |
+| 18:30 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
 
 ## Day 4 — Oct 4 | Half Moon Bay & Monterey, CA
 | Time  | Activity                  | Category      | Notes                                                          |
@@ -124,13 +126,14 @@
 | 13:30 | The Grove                       | sightseeing | Outdoor shopping complex attached to Farmers Market; fountain and trolley |
 | 15:00 | LACMA                           | sightseeing | Urban Light installation out front; keep to ~1 hr so you can hit the road by 16:00 |
 | 16:00 | Drive to Three Rivers           | travel      | ~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs |
-| 20:00 | Check in near Sequoia           | accommodation | Three Rivers or Visalia — good base for an early park start the next morning |
+| 20:00 | Check in near Sequoia           | accommodation | **Option A:** Three Rivers (~15 min from Sequoia entrance) · **Option B:** Visalia (~45 min from entrance, more hotel options) · **Option C:** Oak Haven Cabin (inside Sequoia NP area — book in advance) |
 
 ## Day 11 — Oct 11 | Sequoia National Park, CA
 | Time  | Activity                          | Category    | Notes                                                          |
 |-------|-----------------------------------|-------------|----------------------------------------------------------------|
-| 07:30 | Tunnel Rock                       | sightseeing | Quick stop on Generals Hwy near the Foothills entrance         |
-| 08:30 | Congress Trail                    | sightseeing | 2 mi loop through named giant sequoias; relatively flat and easy |
+| 08:00 | Drive from Three Rivers           | travel      | ~15-20 min via Hwy 198 to Sequoia's Foothills entrance        |
+| 08:30 | Tunnel Rock                       | sightseeing | Quick stop on Generals Hwy near the Foothills entrance         |
+| 08:50 | Congress Trail                    | sightseeing | 2 mi loop through named giant sequoias; relatively flat and easy |
 | 10:00 | General Sherman Tree              | sightseeing | World's largest tree by volume; 0.5 mi walk from upper parking  |
 | 11:30 | Lunch / picnic at Crescent Meadow | food        | Peaceful meadow ringed by sequoias; pack lunch from cabin       |
 | 13:30 | Giant Forest Museum               | sightseeing | Free entry; great context on sequoia ecology before the afternoon hikes |
@@ -155,9 +158,10 @@
 ## Day 13 — Oct 13 | Yosemite National Park, CA
 | Time  | Activity                          | Category    | Notes                                              |
 |-------|-----------------------------------|-------------|----------------------------------------------------|
-| 08:00 | Bridalveil Fall                   | sightseeing | Short 0.5 mi walk from parking lot; can be misty — bring a light jacket |
-| 08:45 | El Capitan Meadow + Valley View   | sightseeing | Pull over along Northside Drive for unobstructed views of El Capitan |
-| 09:30 | Yosemite Falls Trail              | sightseeing | Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous |
+| 08:00 | Drive to Yosemite Valley          | travel      | From Wawona: ~27 miles / 45 min via Wawona Rd · From Oakhurst: ~45 miles / 1 hr via CA-41 N through south gate |
+| 09:00 | Bridalveil Fall                   | sightseeing | Short 0.5 mi walk from parking lot; can be misty — bring a light jacket |
+| 09:45 | El Capitan Meadow + Valley View   | sightseeing | Pull over along Northside Drive for unobstructed views of El Capitan |
+| 10:30 | Yosemite Falls Trail              | sightseeing | Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous |
 | 12:00 | Lunch at Yosemite Valley          | food        | Yosemite Valley Lodge or Village Store grab-and-go |
 | 13:00 | Yosemite Valley                   | sightseeing | Walk the meadows or relax by the Merced River      |
 | 14:00 | Mirror Lake Loop                  | sightseeing | ~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great |

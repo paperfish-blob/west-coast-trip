@@ -98,7 +98,8 @@ const DAYS = [
     {t:"12:00", name:"Clam Chowder", cat:"food", notes:"Grab a chowder cup at any stall along the Wharf — a SF classic, best eaten on the water"},
     {t:"12:30", name:"Boudin Bakery", cat:"food", notes:"SF sourdough since 1849 — watch the bakers, grab a bread bowl or a fresh loaf to take home"},
     {t:"14:00", name:"Lombard Street", cat:"sightseeing", notes:"Drive up to Russian Hill — walk down the famous crooked one-block hairpin turns, great views at the top"},
-    {t:"15:30", name:"Palace of the Fine Arts", cat:"sightseeing", notes:"End the day at the peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light"}
+    {t:"15:30", name:"Palace of the Fine Arts", cat:"sightseeing", notes:"End the day at the peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light"},
+    {t:"16:30", name:"Drive back to Hayward", cat:"travel", notes:"~30-45 min back across the Bay Bridge"}
   ]},
   {n:3, date:"Oct ?", loc:"San Francisco, CA", acts:[
     {t:"09:00", name:"Drive from Hayward", cat:"travel", notes:"Bay Bridge into SF — ~30-45 min"},
@@ -108,7 +109,8 @@ const DAYS = [
     {t:"13:00", name:"Amoeba Music", cat:"sightseeing", notes:"1855 Haight St — one of the last great independent record stores; free to browse, used vinyl/CDs for every taste"},
     {t:"14:30", name:"Lunch on Haight St", cat:"food", notes:"Cheap and easy options all along the strip — grab something and keep walking"},
     {t:"15:30", name:"Valencia St", cat:"sightseeing", notes:"Mission District's main drag — indie bookstores, murals, cafés, relaxed vibe; free to wander"},
-    {t:"17:30", name:"Chase Center", cat:"sightseeing", notes:"Walk the waterfront plaza outside — public art, bay views, no ticket needed"}
+    {t:"17:30", name:"Chase Center", cat:"sightseeing", notes:"Walk the waterfront plaza outside — public art, bay views, no ticket needed"},
+    {t:"18:30", name:"Drive back to Hayward", cat:"travel", notes:"~30-45 min back across the Bay Bridge"}
   ]},
   {n:4, date:"Oct ?", loc:"Half Moon Bay & Monterey, CA", acts:[
     {t:"07:00", name:"Drive from Hayward", cat:"travel", notes:"Head south on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~45-60 min"},
@@ -174,11 +176,12 @@ const DAYS = [
     {t:"13:30", name:"The Grove", cat:"sightseeing", notes:"Outdoor shopping complex attached to Farmers Market; fountain and trolley"},
     {t:"15:00", name:"LACMA", cat:"sightseeing", notes:"Urban Light installation out front; keep to ~1 hr so you can hit the road by 16:00"},
     {t:"16:00", name:"Drive to Three Rivers", cat:"travel", notes:"~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs"},
-    {t:"20:00", name:"Check in near Sequoia", cat:"accommodation", notes:"Three Rivers or Visalia — good base for an early park start the next morning"}
+    {t:"20:00", name:"Check in near Sequoia", cat:"accommodation", notes:"Option A: Three Rivers (~15 min from Sequoia entrance) · Option B: Visalia (~45 min from entrance, more hotel options) · Option C: Oak Haven Cabin (inside Sequoia NP area — book in advance)"}
   ]},
   {n:11, date:"Oct ?", loc:"Sequoia National Park, CA", acts:[
-    {t:"07:30", name:"Tunnel Rock", cat:"sightseeing", notes:"Quick stop on Generals Hwy near the Foothills entrance"},
-    {t:"08:30", name:"Congress Trail", cat:"sightseeing", notes:"2 mi loop through named giant sequoias; relatively flat and easy"},
+    {t:"08:00", name:"Drive from Three Rivers", cat:"travel", notes:"~15-20 min via Hwy 198 to Sequoia's Foothills entrance"},
+    {t:"08:30", name:"Tunnel Rock", cat:"sightseeing", notes:"Quick stop on Generals Hwy near the Foothills entrance"},
+    {t:"08:50", name:"Congress Trail", cat:"sightseeing", notes:"2 mi loop through named giant sequoias; relatively flat and easy"},
     {t:"10:00", name:"General Sherman Tree", cat:"sightseeing", notes:"World's largest tree by volume; 0.5 mi walk from upper parking"},
     {t:"11:30", name:"Lunch / picnic at Crescent Meadow", cat:"food", notes:"Peaceful meadow ringed by sequoias; pack lunch from cabin"},
     {t:"13:30", name:"Giant Forest Museum", cat:"sightseeing", notes:"Free entry; great context on sequoia ecology before the afternoon hikes"},
@@ -199,9 +202,10 @@ const DAYS = [
     {t:"20:30", name:"Check in — Wawona or Oakhurst", cat:"accommodation", notes:"Option A: Wawona Hotel (inside Yosemite, pay park entry at gate, 45 min to Valley) · Option B: Oakhurst (~1 hr to Valley, more hotel choices, no park entry needed until morning)"}
   ]},
     {n:13, date:"Oct ?", loc:"Yosemite National Park, CA", acts:[
-    {t:"08:00", name:"Bridalveil Fall", cat:"sightseeing", notes:"Short 0.5 mi walk from parking lot; can be misty — bring a light jacket"},
-    {t:"08:45", name:"El Capitan Meadow + Valley View", cat:"sightseeing", notes:"Pull over along Northside Drive for unobstructed views of El Capitan"},
-    {t:"09:30", name:"Yosemite Falls Trail", cat:"sightseeing", notes:"Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous"},
+    {t:"08:00", name:"Drive to Yosemite Valley", cat:"travel", notes:"From Wawona: ~27 miles / 45 min via Wawona Rd · From Oakhurst: ~45 miles / 1 hr via CA-41 N through south gate"},
+    {t:"09:00", name:"Bridalveil Fall", cat:"sightseeing", notes:"Short 0.5 mi walk from parking lot; can be misty — bring a light jacket"},
+    {t:"09:45", name:"El Capitan Meadow + Valley View", cat:"sightseeing", notes:"Pull over along Northside Drive for unobstructed views of El Capitan"},
+    {t:"10:30", name:"Yosemite Falls Trail", cat:"sightseeing", notes:"Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous"},
     {t:"12:00", name:"Lunch at Yosemite Valley", cat:"food", notes:"Yosemite Valley Lodge or Village Store grab-and-go"},
     {t:"13:00", name:"Yosemite Valley", cat:"sightseeing", notes:"Walk the meadows or relax by the Merced River"},
     {t:"14:00", name:"Mirror Lake Loop", cat:"sightseeing", notes:"~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great"},
