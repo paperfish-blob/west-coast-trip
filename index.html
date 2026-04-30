@@ -82,7 +82,7 @@ td.td-day{min-width:168px;width:168px;padding:3px;vertical-align:top}
 </div>
 <script>
 const DAYS = [
-  {n:1, date:"Oct 1", loc:"Marin & San Francisco, CA", acts:[
+  {n:1, date:"Oct ?", loc:"Marin & San Francisco, CA", acts:[
     {t:"08:30", name:"Drive from Hayward", cat:"travel", notes:"Bay Bridge into SF, then north across the Golden Gate into Marin — ~1 hr total"},
     {t:"09:30", name:"Battery Spencer", cat:"sightseeing", notes:"Marin Headlands overlook just above the Golden Gate — best panoramic view of the bridge and SF skyline; go early before the crowds"},
     {t:"11:00", name:"Sausalito", cat:"sightseeing", notes:"Charming waterfront village below the headlands — stroll Bridgeway, browse galleries, watch the houseboats"},
@@ -91,7 +91,7 @@ const DAYS = [
     {t:"14:30", name:"Baker Beach", cat:"sightseeing", notes:"SF-side beach with the Golden Gate looming directly above — great afternoon light on the bridge"},
     {t:"16:00", name:"Drive back to Hayward", cat:"travel", notes:"~30-40 min back across the Bay Bridge"}
   ]},
-  {n:2, date:"Oct 2", loc:"San Francisco, CA", acts:[
+  {n:2, date:"Oct ?", loc:"San Francisco, CA", acts:[
     {t:"09:00", name:"Drive from Hayward", cat:"travel", notes:"Cross the Bay Bridge into SF — ~30-45 min depending on traffic"},
     {t:"10:00", name:"Pier 39", cat:"sightseeing", notes:"First stop near the Bay Bridge landing — sea lions on K-Dock, morning bay views, easy parking in the garage nearby"},
     {t:"11:00", name:"Fisherman's Wharf", cat:"sightseeing", notes:"Wander the docks at your own pace — street performers, fresh crab stalls, views of Alcatraz"},
@@ -100,7 +100,7 @@ const DAYS = [
     {t:"14:00", name:"Lombard Street", cat:"sightseeing", notes:"Drive up to Russian Hill — walk down the famous crooked one-block hairpin turns, great views at the top"},
     {t:"15:30", name:"Palace of the Fine Arts", cat:"sightseeing", notes:"End the day at the peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light"}
   ]},
-  {n:3, date:"Oct 3", loc:"San Francisco, CA", acts:[
+  {n:3, date:"Oct ?", loc:"San Francisco, CA", acts:[
     {t:"09:00", name:"Drive from Hayward", cat:"travel", notes:"Bay Bridge into SF — ~30-45 min"},
     {t:"10:00", name:"Alamo Square Park", cat:"sightseeing", notes:"Painted Ladies straight ahead from the park's east hill — best angle for the classic shot; bring coffee and sit on the grass"},
     {t:"10:45", name:"The Painted Ladies", cat:"sightseeing", notes:"Walk the Steiner St side up close — Victorian row houses with the SF skyline behind; free, no entry needed"},
@@ -110,7 +110,7 @@ const DAYS = [
     {t:"15:30", name:"Valencia St", cat:"sightseeing", notes:"Mission District's main drag — indie bookstores, murals, cafés, relaxed vibe; free to wander"},
     {t:"17:30", name:"Chase Center", cat:"sightseeing", notes:"Walk the waterfront plaza outside — public art, bay views, no ticket needed"}
   ]},
-  {n:4, date:"Oct 4", loc:"Half Moon Bay & Monterey, CA", acts:[
+  {n:4, date:"Oct ?", loc:"Half Moon Bay & Monterey, CA", acts:[
     {t:"07:00", name:"Drive from Hayward", cat:"travel", notes:"Head south on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~45-60 min"},
     {t:"08:00", name:"Half Moon Bay", cat:"sightseeing", notes:"Coastal town south of SF — beach walk, sea cliffs, Mavericks surf spot nearby"},
     {t:"10:30", name:"Drive south on Hwy 1", cat:"travel", notes:"Scenic Pacific Coast Highway south to Monterey (~2 hrs)"},
@@ -119,7 +119,7 @@ const DAYS = [
     {t:"16:00", name:"Carmel-by-the-Sea", cat:"sightseeing", notes:"Charming village with galleries, boutiques, and a white-sand beach"},
     {t:"18:30", name:"Check in near Monterey", cat:"accommodation", notes:""}
   ]},
-  {n:5, date:"Oct 5", loc:"Big Sur & SLO Coast, CA", acts:[
+  {n:5, date:"Oct ?", loc:"Big Sur & SLO Coast, CA", acts:[
     {t:"08:00", name:"Depart Monterey", cat:"travel", notes:"Head south on Hwy 1 — fuel up and pack snacks, limited stops ahead"},
     {t:"09:00", name:"Bixby Creek Bridge", cat:"sightseeing", notes:"One of the most photographed bridges in CA; pull over on the north side for the best shot"},
     {t:"09:20", name:"Hurricane Point Vista Point", cat:"sightseeing", notes:"Windy clifftop overlook just south of Bixby with sweeping ocean views"},
@@ -130,14 +130,14 @@ const DAYS = [
     {t:"15:30", name:"Morro Bay", cat:"sightseeing", notes:"Walk the Embarcadero; Morro Rock volcanic plug dominates the harbour"},
     {t:"17:00", name:"San Luis Obispo", cat:"sightseeing", notes:"Lively college town — Mission San Luis Obispo, Higuera St for dinner"}
   ]},
-  {n:6, date:"Oct 6", loc:"Solvang, Santa Barbara & Malibu, CA", acts:[
+  {n:6, date:"Oct ?", loc:"Solvang, Santa Barbara & Malibu, CA", acts:[
     {t:"08:00", name:"Depart SLO", cat:"travel", notes:"Head south on Hwy 101"},
     {t:"09:00", name:"Solvang", cat:"sightseeing", notes:"Danish village with windmills, bakeries, and half-timbered buildings — grab a pastry"},
     {t:"11:00", name:"Santa Barbara", cat:"sightseeing", notes:"State Street, Mission Santa Barbara, Stearns Wharf; lunch here"},
     {t:"14:30", name:"Drive to Malibu", cat:"travel", notes:"~1.5 hrs south on Hwy 101 / PCH"},
     {t:"16:30", name:"Malibu Pier", cat:"sightseeing", notes:"Walk the pier; good late afternoon light over the Pacific"}
   ]},
-  {n:7, date:"Oct 7", loc:"Los Angeles, CA", acts:[
+  {n:7, date:"Oct ?", loc:"Los Angeles, CA", acts:[
     {t:"09:00", name:"Walt Disney Concert Hall", cat:"sightseeing", notes:"Iconic stainless steel exterior; free self-guided audio tour available"},
     {t:"10:00", name:"Cafe hopping", cat:"food", notes:"Grand Ave / Bunker Hill area cafés"},
     {t:"11:00", name:"The Broad + MOCA + Angels Flight", cat:"sightseeing", notes:"The Broad needs ~2 hrs; MOCA ~1 hr; Angels Flight is a quick historic funicular ride between"},
@@ -146,7 +146,7 @@ const DAYS = [
     {t:"16:00", name:"Little Tokyo", cat:"sightseeing", notes:"Japanese Village Plaza, temples, Japanese snacks"},
     {t:"17:30", name:"Arts District", cat:"sightseeing", notes:"Street art, galleries, independent coffee shops"}
   ]},
-  {n:8, date:"Oct 8", loc:"Venice & Santa Monica, CA", acts:[
+  {n:8, date:"Oct ?", loc:"Venice & Santa Monica, CA", acts:[
     {t:"10:00", name:"The Getty Villa", cat:"sightseeing", notes:"Free but advance reservation required — book before the trip; allow ~2.5 hrs"},
     {t:"13:00", name:"Lunch at Gjusta", cat:"food", notes:"Legendary Venice bakery/deli — sandwiches, pastries, long but worth it"},
     {t:"15:30", name:"Venice Beach Boardwalk", cat:"sightseeing", notes:"Murals, street performers, skate park — full sensory overload"},
@@ -154,7 +154,7 @@ const DAYS = [
     {t:"18:30", name:"Santa Monica Pier", cat:"sightseeing", notes:"Arrive before sunset for the best view; Pacific Park Ferris wheel is iconic"},
     {t:"20:00", name:"Dinner", cat:"food", notes:"Santa Monica or Venice — plenty of options nearby"}
   ]},
-  {n:9, date:"Oct 9", loc:"Hollywood, CA", acts:[
+  {n:9, date:"Oct ?", loc:"Hollywood, CA", acts:[
     {t:"07:30", name:"Griffith Park Trails", cat:"sightseeing", notes:"Go early before the heat; Fern Dell or East Observatory Trail are good short options"},
     {t:"09:00", name:"Back to Airbnb — shower", cat:"other", notes:""},
     {t:"10:30", name:"Brunch", cat:"food", notes:"Los Feliz or Silver Lake neighbourhood has great brunch spots"},
@@ -165,7 +165,7 @@ const DAYS = [
     {t:"19:00", name:"Dinner", cat:"food", notes:""},
     {t:"21:00", name:"Sunset Blvd", cat:"sightseeing", notes:"The Sunset Strip at night — bars, neon signs, live music venues"}
   ]},
-  {n:10, date:"Oct 10", loc:"Beverly Hills & Fairfax, CA", acts:[
+  {n:10, date:"Oct ?", loc:"Beverly Hills & Fairfax, CA", acts:[
     {t:"09:00", name:"Beverly Gardens Park", cat:"sightseeing", notes:"1.9 mi park along Santa Monica Blvd; Beverly Hills Sign and rose garden"},
     {t:"10:00", name:"Rodeo Drive", cat:"sightseeing", notes:"Window shopping and photos; most shops open around 10"},
     {t:"11:00", name:"Erewhon Beverly Hills", cat:"food", notes:"Grab a smoothie or snack; pricey but iconic"},
@@ -176,7 +176,7 @@ const DAYS = [
     {t:"16:00", name:"Drive to Three Rivers", cat:"travel", notes:"~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs"},
     {t:"20:00", name:"Check in near Sequoia", cat:"accommodation", notes:"Three Rivers or Visalia — good base for an early park start the next morning"}
   ]},
-  {n:11, date:"Oct 11", loc:"Sequoia National Park, CA", acts:[
+  {n:11, date:"Oct ?", loc:"Sequoia National Park, CA", acts:[
     {t:"07:30", name:"Tunnel Rock", cat:"sightseeing", notes:"Quick stop on Generals Hwy near the Foothills entrance"},
     {t:"08:30", name:"Congress Trail", cat:"sightseeing", notes:"2 mi loop through named giant sequoias; relatively flat and easy"},
     {t:"10:00", name:"General Sherman Tree", cat:"sightseeing", notes:"World's largest tree by volume; 0.5 mi walk from upper parking"},
@@ -186,7 +186,7 @@ const DAYS = [
     {t:"15:30", name:"Tunnel Log", cat:"sightseeing", notes:"Drive or walk through a fallen sequoia on Crescent Meadow Rd"},
     {t:"17:00", name:"Beetle Rock — sunset viewpoint", cat:"sightseeing", notes:"Flat granite outcropping near Giant Forest Museum; wide open sky for sunset"}
   ]},
-  {n:12, date:"Oct 12", loc:"Kings Canyon & Sequoia NP, CA", acts:[
+  {n:12, date:"Oct ?", loc:"Kings Canyon & Sequoia NP, CA", acts:[
     {t:"07:00", name:"General Grant Tree", cat:"sightseeing", notes:"World's second largest tree; go early before tour buses arrive"},
     {t:"08:30", name:"Hume Lake + breakfast picnic", cat:"food", notes:"Peaceful reservoir ~10 min from Grant Grove; pack breakfast the night before"},
     {t:"11:00", name:"Grizzly Falls + lunch", cat:"food", notes:"Beautiful roadside waterfall along Hwy 180; pack lunch to eat nearby"},
@@ -195,7 +195,7 @@ const DAYS = [
     {t:"16:30", name:"Panoramic Point Overlook", cat:"sightseeing", notes:"2 mi round trip hike from Grant Grove; sweeping views of the Central Valley"},
     {t:"18:30", name:"Check in — Oak Haven Cabin", cat:"accommodation", notes:"Near Sequoia NP; good base for the area"}
   ]},
-    {n:13, date:"Oct 13", loc:"Yosemite National Park, CA", acts:[
+    {n:13, date:"Oct ?", loc:"Yosemite National Park, CA", acts:[
     {t:"08:00", name:"Bridalveil Fall", cat:"sightseeing", notes:"Short 0.5 mi walk from parking lot; can be misty — bring a light jacket"},
     {t:"08:45", name:"El Capitan Meadow + Valley View", cat:"sightseeing", notes:"Pull over along Northside Drive for unobstructed views of El Capitan"},
     {t:"09:30", name:"Yosemite Falls Trail", cat:"sightseeing", notes:"Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous"},
@@ -206,14 +206,14 @@ const DAYS = [
     {t:"16:45", name:"Tunnel View", cat:"sightseeing", notes:"Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall"},
     {t:"18:00", name:"Stay: Hayward (3.5h) or Oakhurst?", cat:"accommodation", notes:"Option A: Drive ~3.5 hrs back to Hayward (exit ~18:00, arrive ~21:30) · Option B: Stay overnight in Oakhurst (~45 min from south gate — closer base, more rest)"}
   ]},
-  {n:14, date:"Oct 14", loc:"Livermore, CA", acts:[
+  {n:14, date:"Oct ?", loc:"Livermore, CA", acts:[
     {t:"09:30", name:"Drive from Hayward", cat:"travel", notes:"~25-30 min east on I-580 to Livermore — no bridge traffic"},
     {t:"10:00", name:"SF Premium Outlets", cat:"sightseeing", notes:"Opens at 10am — 180+ outlet stores including Nike, Coach, Michael Kors, Kate Spade, Levi's, and more"},
     {t:"12:30", name:"Lunch at the outlets", cat:"food", notes:"Several dining options on-site — grab a bite and keep going"},
     {t:"13:30", name:"Continue shopping", cat:"sightseeing", notes:"Afternoon is the best time to hit the bigger anchor stores before crowds thin out"},
     {t:"17:00", name:"Drive back to Hayward", cat:"travel", notes:"~25-30 min back on I-580"}
   ]},
-  {n:15, date:"Oct 15", loc:"Silicon Valley & Stanford, CA", acts:[
+  {n:15, date:"Oct ?", loc:"Silicon Valley & Stanford, CA", acts:[
     {t:"09:15", name:"Drive from Hayward", cat:"travel", notes:"Head south on I-880 to I-237 / Lawrence Expressway into Cupertino — ~40 min"},
     {t:"10:00", name:"Apple Park Visitor Center", cat:"sightseeing", notes:"Public-facing store with views of the spaceship campus; great architecture and Apple merch"},
     {t:"11:30", name:"Google Visitor Experience", cat:"sightseeing", notes:"Outdoor photo stop only — colorful bikes, Android statues, Googleplex grounds; 15 min, no public access inside"},
@@ -222,7 +222,7 @@ const DAYS = [
     {t:"14:30", name:"Stanford Bookstore", cat:"sightseeing", notes:"Large campus bookstore with Stanford gear and a good general book section"},
     {t:"17:00", name:"Drive to Hayward", cat:"travel", notes:"~30–40 min across the bay from Stanford"}
   ]},
-  {n:16, date:"Oct 16", loc:"San Francisco, CA", acts:[
+  {n:16, date:"Oct ?", loc:"San Francisco, CA", acts:[
     {t:"09:00", name:"Drive from Hayward", cat:"travel", notes:"Bay Bridge into SF — ~30-45 min; park near the Embarcadero"},
     {t:"10:00", name:"Ferry Building", cat:"sightseeing", notes:"Marketplace along the waterfront — local vendors, coffee, bakeries; great morning energy even without the Saturday market"},
     {t:"11:00", name:"Chinatown", cat:"sightseeing", notes:"Enter through Dragon Gate on Grant Ave — fortune cookie factory, herb shops, dim sum bakeries, easy to wander"},
