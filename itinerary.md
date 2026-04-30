@@ -136,18 +136,21 @@
 | 13:30 | Giant Forest Museum               | sightseeing | Free entry; great context on sequoia ecology before the afternoon hikes |
 | 14:30 | Moro Rock                         | sightseeing | 350 steps to the summit; 360° views of the Great Western Divide |
 | 15:30 | Tunnel Log                        | sightseeing | Drive or walk through a fallen sequoia on Crescent Meadow Rd    |
-| 17:00 | Beetle Rock — sunset viewpoint    | sightseeing | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
+| 17:00 | Beetle Rock — sunset viewpoint    | sightseeing   | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
+| 18:30 | Check in — Grant Grove Village    | accommodation | ~35-40 min north on Generals Hwy; base for Day 12 Kings Canyon start |
 
 ## Day 12 — Oct 12 | Kings Canyon & Sequoia NP, CA
 | Time  | Activity                          | Category      | Notes                                                        |
 |-------|-----------------------------------|---------------|--------------------------------------------------------------|
-| 07:00 | General Grant Tree                | sightseeing   | World's second largest tree; go early before tour buses arrive |
-| 08:30 | Hume Lake + breakfast picnic      | food          | Peaceful reservoir ~10 min from Grant Grove; pack breakfast the night before |
-| 11:00 | Grizzly Falls + lunch             | food          | Beautiful roadside waterfall along Hwy 180; pack lunch to eat nearby |
-| 13:30 | Roaring River Falls               | sightseeing   | Short 0.3 mi walk; powerful waterfall especially in early autumn |
-| 14:30 | Zumwalt Meadow                    | sightseeing   | Stunning 1.5 mi loop near Road's End; towering canyon walls and river views |
-| 16:30 | Panoramic Point Overlook          | sightseeing   | 2 mi round trip hike from Grant Grove; sweeping views of the Central Valley |
-| 18:30 | Check in — Oak Haven Cabin        | accommodation | Near Sequoia NP; good base for the area                      |
+| 07:55 | Drive from Grant Grove Village    | travel        | Under 1 mile to the General Grant Tree trailhead — ~2-3 min |
+| 08:00 | General Grant Tree                | sightseeing   | World's second largest tree; go early before tour buses arrive |
+| 09:30 | Hume Lake + breakfast picnic      | food          | Peaceful reservoir ~10 min from Grant Grove; pack breakfast the night before |
+| 12:00 | Grizzly Falls + lunch             | food          | Beautiful roadside waterfall along Hwy 180; pack lunch to eat nearby |
+| 14:30 | Roaring River Falls               | sightseeing   | Short 0.3 mi walk; powerful waterfall especially in early autumn |
+| 15:30 | Zumwalt Meadow                    | sightseeing   | Stunning 1.5 mi loop near Road's End; towering canyon walls and river views |
+| 17:30 | Panoramic Point Overlook          | sightseeing   | 2 mi round trip hike from Grant Grove; sweeping views of the Central Valley |
+| 18:30 | Drive to Wawona / Oakhurst        | travel        | ~2 hrs from Grant Grove via Hwy 180 W → CA-41 N toward Yosemite south gate |
+| 20:30 | Check in — Wawona or Oakhurst     | accommodation | **Option A:** Wawona Hotel (inside Yosemite, pay park entry at gate, 45 min to Valley) · **Option B:** Oakhurst (~1 hr to Valley, more hotel choices, no park entry needed until morning) |
 
 ## Day 13 — Oct 13 | Yosemite National Park, CA
 | Time  | Activity                          | Category    | Notes                                              |
