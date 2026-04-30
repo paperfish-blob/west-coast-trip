@@ -111,6 +111,7 @@ const DAYS = [
     {t:"17:30", name:"Chase Center", cat:"sightseeing", notes:"Walk the waterfront plaza outside — public art, bay views, no ticket needed"}
   ]},
   {n:4, date:"Oct 4", loc:"Half Moon Bay & Monterey, CA", acts:[
+    {t:"07:00", name:"Drive from Hayward", cat:"travel", notes:"Head south on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~45-60 min"},
     {t:"08:00", name:"Half Moon Bay", cat:"sightseeing", notes:"Coastal town south of SF — beach walk, sea cliffs, Mavericks surf spot nearby"},
     {t:"10:30", name:"Drive south on Hwy 1", cat:"travel", notes:"Scenic Pacific Coast Highway south to Monterey (~2 hrs)"},
     {t:"12:30", name:"Monterey", cat:"sightseeing", notes:"Cannery Row, Fisherman's Wharf; grab lunch here"},
@@ -174,15 +175,15 @@ const DAYS = [
     {t:"15:00", name:"LACMA", cat:"sightseeing", notes:"Largest art museum in the west; allow 2–3 hrs; Urban Light installation out front"},
     {t:"19:30", name:"Sunset Strip", cat:"sightseeing", notes:"Iconic stretch of Sunset Blvd through West Hollywood — bars, clubs, live music"}
   ]},
-  {n:11, date:"Oct 11", loc:"Yosemite National Park, CA", acts:[
-    {t:"08:00", name:"Bridalveil Fall", cat:"sightseeing", notes:"Short 0.5 mi walk from parking lot; can be misty — bring a light jacket"},
-    {t:"08:45", name:"El Capitan Meadow + Valley View", cat:"sightseeing", notes:"Pull over along Northside Drive for unobstructed views of El Capitan"},
-    {t:"09:30", name:"Yosemite Falls Trail", cat:"sightseeing", notes:"Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous"},
-    {t:"12:00", name:"Lunch at Yosemite Valley", cat:"food", notes:"Yosemite Valley Lodge or Village Store grab-and-go"},
-    {t:"13:00", name:"Yosemite Valley", cat:"sightseeing", notes:"Walk the meadows or relax by the Merced River"},
-    {t:"14:00", name:"Mirror Lake Loop", cat:"sightseeing", notes:"~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great"},
-    {t:"16:00", name:"Sentinel Bridge — Half Dome View", cat:"sightseeing", notes:"Good late afternoon light on Half Dome"},
-    {t:"16:45", name:"Tunnel View", cat:"sightseeing", notes:"Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall"}
+  {n:11, date:"Oct 11", loc:"Sequoia National Park, CA", acts:[
+    {t:"07:30", name:"Tunnel Rock", cat:"sightseeing", notes:"Quick stop on Generals Hwy near the Foothills entrance"},
+    {t:"08:30", name:"Congress Trail", cat:"sightseeing", notes:"2 mi loop through named giant sequoias; relatively flat and easy"},
+    {t:"10:00", name:"General Sherman Tree", cat:"sightseeing", notes:"World's largest tree by volume; 0.5 mi walk from upper parking"},
+    {t:"11:30", name:"Lunch / picnic at Crescent Meadow", cat:"food", notes:"Peaceful meadow ringed by sequoias; pack lunch from cabin"},
+    {t:"13:30", name:"Giant Forest Museum", cat:"sightseeing", notes:"Free entry; great context on sequoia ecology before the afternoon hikes"},
+    {t:"14:30", name:"Moro Rock", cat:"sightseeing", notes:"350 steps to the summit; 360° views of the Great Western Divide"},
+    {t:"15:30", name:"Tunnel Log", cat:"sightseeing", notes:"Drive or walk through a fallen sequoia on Crescent Meadow Rd"},
+    {t:"17:00", name:"Beetle Rock — sunset viewpoint", cat:"sightseeing", notes:"Flat granite outcropping near Giant Forest Museum; wide open sky for sunset"}
   ]},
   {n:12, date:"Oct 12", loc:"Kings Canyon & Sequoia NP, CA", acts:[
     {t:"07:00", name:"General Grant Tree", cat:"sightseeing", notes:"World's second largest tree; go early before tour buses arrive"},
@@ -193,15 +194,16 @@ const DAYS = [
     {t:"16:30", name:"Panoramic Point Overlook", cat:"sightseeing", notes:"2 mi round trip hike from Grant Grove; sweeping views of the Central Valley"},
     {t:"18:30", name:"Check in — Oak Haven Cabin", cat:"accommodation", notes:"Near Sequoia NP; good base for the area"}
   ]},
-  {n:13, date:"Oct 13", loc:"Sequoia National Park, CA", acts:[
-    {t:"07:30", name:"Tunnel Rock", cat:"sightseeing", notes:"Quick stop on Generals Hwy near the Foothills entrance"},
-    {t:"08:30", name:"Congress Trail", cat:"sightseeing", notes:"2 mi loop through named giant sequoias; relatively flat and easy"},
-    {t:"10:00", name:"General Sherman Tree", cat:"sightseeing", notes:"World's largest tree by volume; 0.5 mi walk from upper parking"},
-    {t:"11:30", name:"Lunch / picnic at Crescent Meadow", cat:"food", notes:"Peaceful meadow ringed by sequoias; pack lunch from cabin"},
-    {t:"13:30", name:"Giant Forest Museum", cat:"sightseeing", notes:"Free entry; great context on sequoia ecology before the afternoon hikes"},
-    {t:"14:30", name:"Moro Rock", cat:"sightseeing", notes:"350 steps to the summit; 360° views of the Great Western Divide"},
-    {t:"15:30", name:"Tunnel Log", cat:"sightseeing", notes:"Drive or walk through a fallen sequoia on Crescent Meadow Rd"},
-    {t:"17:00", name:"Beetle Rock — sunset viewpoint", cat:"sightseeing", notes:"Flat granite outcropping near Giant Forest Museum; wide open sky for sunset"}
+    {n:13, date:"Oct 13", loc:"Yosemite National Park, CA", acts:[
+    {t:"08:00", name:"Bridalveil Fall", cat:"sightseeing", notes:"Short 0.5 mi walk from parking lot; can be misty — bring a light jacket"},
+    {t:"08:45", name:"El Capitan Meadow + Valley View", cat:"sightseeing", notes:"Pull over along Northside Drive for unobstructed views of El Capitan"},
+    {t:"09:30", name:"Yosemite Falls Trail", cat:"sightseeing", notes:"Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous"},
+    {t:"12:00", name:"Lunch at Yosemite Valley", cat:"food", notes:"Yosemite Valley Lodge or Village Store grab-and-go"},
+    {t:"13:00", name:"Yosemite Valley", cat:"sightseeing", notes:"Walk the meadows or relax by the Merced River"},
+    {t:"14:00", name:"Mirror Lake Loop", cat:"sightseeing", notes:"~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great"},
+    {t:"16:00", name:"Sentinel Bridge — Half Dome View", cat:"sightseeing", notes:"Good late afternoon light on Half Dome"},
+    {t:"16:45", name:"Tunnel View", cat:"sightseeing", notes:"Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall"},
+    {t:"18:00", name:"Stay: Hayward (3.5h) or Oakhurst?", cat:"accommodation", notes:"Option A: Drive ~3.5 hrs back to Hayward (exit ~18:00, arrive ~21:30) · Option B: Stay overnight in Oakhurst (~45 min from south gate — closer base, more rest)"}
   ]},
   {n:14, date:"Oct 14", loc:"Livermore, CA", acts:[
     {t:"09:30", name:"Drive from Hayward", cat:"travel", notes:"~25-30 min east on I-580 to Livermore — no bridge traffic"},

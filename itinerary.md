@@ -49,6 +49,7 @@
 ## Day 4 — Oct 4 | Half Moon Bay & Monterey, CA
 | Time  | Activity                  | Category      | Notes                                                          |
 |-------|---------------------------|---------------|----------------------------------------------------------------|
+| 07:00 | Drive from Hayward        | travel        | Head south on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~45-60 min |
 | 08:00 | Half Moon Bay             | sightseeing   | Coastal town south of SF — beach walk, sea cliffs, Mavericks surf spot nearby |
 | 10:30 | Drive south on Hwy 1      | travel        | Scenic Pacific Coast Highway south to Monterey (~2 hrs)        |
 | 12:30 | Monterey                  | sightseeing   | Cannery Row, Fisherman's Wharf; grab lunch here                |
@@ -124,17 +125,17 @@
 | 15:00 | LACMA                           | sightseeing | Largest art museum in the west; allow 2–3 hrs; Urban Light installation out front |
 | 19:30 | Sunset Strip                    | sightseeing | Iconic stretch of Sunset Blvd through West Hollywood — bars, clubs, live music |
 
-## Day 11 — Oct 11 | Yosemite National Park, CA
-| Time  | Activity                          | Category    | Notes                                              |
-|-------|-----------------------------------|-------------|----------------------------------------------------|
-| 08:00 | Bridalveil Fall                   | sightseeing | Short 0.5 mi walk from parking lot; can be misty — bring a light jacket |
-| 08:45 | El Capitan Meadow + Valley View   | sightseeing | Pull over along Northside Drive for unobstructed views of El Capitan |
-| 09:30 | Yosemite Falls Trail              | sightseeing | Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous |
-| 12:00 | Lunch at Yosemite Valley          | food        | Yosemite Valley Lodge or Village Store grab-and-go |
-| 13:00 | Yosemite Valley                   | sightseeing | Walk the meadows or relax by the Merced River      |
-| 14:00 | Mirror Lake Loop                  | sightseeing | ~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great |
-| 16:00 | Sentinel Bridge — Half Dome View  | sightseeing | Good late afternoon light on Half Dome             |
-| 16:45 | Tunnel View                       | sightseeing | Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall |
+## Day 11 — Oct 11 | Sequoia National Park, CA
+| Time  | Activity                          | Category    | Notes                                                          |
+|-------|-----------------------------------|-------------|----------------------------------------------------------------|
+| 07:30 | Tunnel Rock                       | sightseeing | Quick stop on Generals Hwy near the Foothills entrance         |
+| 08:30 | Congress Trail                    | sightseeing | 2 mi loop through named giant sequoias; relatively flat and easy |
+| 10:00 | General Sherman Tree              | sightseeing | World's largest tree by volume; 0.5 mi walk from upper parking  |
+| 11:30 | Lunch / picnic at Crescent Meadow | food        | Peaceful meadow ringed by sequoias; pack lunch from cabin       |
+| 13:30 | Giant Forest Museum               | sightseeing | Free entry; great context on sequoia ecology before the afternoon hikes |
+| 14:30 | Moro Rock                         | sightseeing | 350 steps to the summit; 360° views of the Great Western Divide |
+| 15:30 | Tunnel Log                        | sightseeing | Drive or walk through a fallen sequoia on Crescent Meadow Rd    |
+| 17:00 | Beetle Rock — sunset viewpoint    | sightseeing | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
 
 ## Day 12 — Oct 12 | Kings Canyon & Sequoia NP, CA
 | Time  | Activity                          | Category      | Notes                                                        |
@@ -147,17 +148,18 @@
 | 16:30 | Panoramic Point Overlook          | sightseeing   | 2 mi round trip hike from Grant Grove; sweeping views of the Central Valley |
 | 18:30 | Check in — Oak Haven Cabin        | accommodation | Near Sequoia NP; good base for the area                      |
 
-## Day 13 — Oct 13 | Sequoia National Park, CA
-| Time  | Activity                          | Category    | Notes                                                          |
-|-------|-----------------------------------|-------------|----------------------------------------------------------------|
-| 07:30 | Tunnel Rock                       | sightseeing | Quick stop on Generals Hwy near the Foothills entrance         |
-| 08:30 | Congress Trail                    | sightseeing | 2 mi loop through named giant sequoias; relatively flat and easy |
-| 10:00 | General Sherman Tree              | sightseeing | World's largest tree by volume; 0.5 mi walk from upper parking  |
-| 11:30 | Lunch / picnic at Crescent Meadow | food        | Peaceful meadow ringed by sequoias; pack lunch from cabin       |
-| 13:30 | Giant Forest Museum               | sightseeing | Free entry; great context on sequoia ecology before the afternoon hikes |
-| 14:30 | Moro Rock                         | sightseeing | 350 steps to the summit; 360° views of the Great Western Divide |
-| 15:30 | Tunnel Log                        | sightseeing | Drive or walk through a fallen sequoia on Crescent Meadow Rd    |
-| 17:00 | Beetle Rock — sunset viewpoint    | sightseeing | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
+## Day 13 — Oct 13 | Yosemite National Park, CA
+| Time  | Activity                          | Category    | Notes                                              |
+|-------|-----------------------------------|-------------|----------------------------------------------------|
+| 08:00 | Bridalveil Fall                   | sightseeing | Short 0.5 mi walk from parking lot; can be misty — bring a light jacket |
+| 08:45 | El Capitan Meadow + Valley View   | sightseeing | Pull over along Northside Drive for unobstructed views of El Capitan |
+| 09:30 | Yosemite Falls Trail              | sightseeing | Lower Yosemite Falls loop is ~1 hr easy; upper falls is ~5 hrs strenuous |
+| 12:00 | Lunch at Yosemite Valley          | food        | Yosemite Valley Lodge or Village Store grab-and-go |
+| 13:00 | Yosemite Valley                   | sightseeing | Walk the meadows or relax by the Merced River      |
+| 14:00 | Mirror Lake Loop                  | sightseeing | ~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great |
+| 16:00 | Sentinel Bridge — Half Dome View  | sightseeing | Good late afternoon light on Half Dome             |
+| 16:45 | Tunnel View                       | sightseeing | Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall |
+| 18:00 | Stay: Hayward (3.5h) or Oakhurst? | accommodation | **Option A:** Drive ~3.5 hrs back to Hayward (exit Yosemite ~18:00, arrive ~21:30) · **Option B:** Stay overnight in Oakhurst (~45 min from Yosemite south gate — closer base, more rest) |
 
 ## Day 14 — Oct 14 | Livermore, CA
 | Time  | Activity                          | Category    | Notes |
