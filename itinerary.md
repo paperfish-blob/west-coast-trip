@@ -99,8 +99,8 @@
 | Time  | Activity                             | Category    | Notes                                                  |
 |-------|--------------------------------------|-------------|--------------------------------------------------------|
 | 09:00 | Walt Disney Concert Hall             | sightseeing | Iconic stainless steel exterior; free self-guided audio tour available |
-| 10:00 | Cafe hopping                         | food        | Grand Ave / Bunker Hill area cafés                     |
-| 11:00 | The Broad + MOCA + Angels Flight     | sightseeing | The Broad needs ~2 hrs; MOCA ~1 hr; Angels Flight is a quick historic funicular ride between |
+| 09:30 | Cafe hopping                         | food        | Grand Ave / Bunker Hill area cafés                     |
+| 10:30 | The Broad + MOCA + Angels Flight     | sightseeing | The Broad needs ~2 hrs; MOCA ~1 hr; Angels Flight is a quick historic funicular ride between |
 | 13:30 | Lunch at Grand Central Market        | food        | Iconic indoor market since 1917 — lots of vendors, arrive hungry |
 | 15:00 | The Last Bookstore                   | sightseeing | Huge independent bookstore with art installations; Spring St |
 | 16:00 | Little Tokyo                         | sightseeing | Japanese Village Plaza, temples, Japanese snacks       |
