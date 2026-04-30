@@ -82,8 +82,20 @@
 | 14:30 | Drive to Malibu           | travel      | ~1.5 hrs south on Hwy 101 / PCH                                     |
 | 16:30 | Malibu Pier               | sightseeing | Walk the pier; good late afternoon light over the Pacific            |
 | 17:30 | Drive to LA               | travel      | Head east from Malibu on PCH toward LA — ~1-1.5 hrs depending on traffic |
+| 18:30 | Stay in Santa Monica      | accommodation | **Airbnb/VRBO** — Search for 2-bedroom apartments or houses ($150–250/night whole place, $30–60/person for 4-5 people). Kitchen saves on meals. Close to The Getty Villa & Day 7 activities. |
 
-## Day 7 — Oct 7 | Los Angeles, CA
+## Day 7 — Oct 7 | Venice & Santa Monica, CA
+| Time  | Activity                  | Category    | Notes                                                        |
+|-------|---------------------------|-------------|--------------------------------------------------------------|
+| 09:30 | Drive to Getty Villa      | travel      | From Santa Monica to Pacific Palisades — ~15-20 min depending on traffic |
+| 10:00 | The Getty Villa           | sightseeing | Free but advance reservation required — book before the trip; allow ~2.5 hrs |
+| 13:00 | Lunch at Gjusta           | food        | Legendary Venice bakery/deli — sandwiches, pastries, long but worth it |
+| 15:30 | Venice Beach Boardwalk    | sightseeing | Murals, street performers, skate park — full sensory overload |
+| 17:00 | Abbot Kinney Boulevard    | sightseeing | Boutiques, galleries, coffee — great golden hour street to wander |
+| 18:30 | Santa Monica Pier         | sightseeing | Arrive before sunset for the best view; Pacific Park Ferris wheel is iconic |
+| 20:00 | Dinner                    | food        | Santa Monica or Venice — plenty of options nearby            |
+
+## Day 8 — Oct 8 | Los Angeles, CA
 | Time  | Activity                             | Category    | Notes                                                  |
 |-------|--------------------------------------|-------------|--------------------------------------------------------|
 | 09:00 | Walt Disney Concert Hall             | sightseeing | Iconic stainless steel exterior; free self-guided audio tour available |
@@ -93,16 +105,6 @@
 | 15:00 | The Last Bookstore                   | sightseeing | Huge independent bookstore with art installations; Spring St |
 | 16:00 | Little Tokyo                         | sightseeing | Japanese Village Plaza, temples, Japanese snacks       |
 | 17:30 | Arts District                        | sightseeing | Street art, galleries, independent coffee shops        |
-
-## Day 8 — Oct 8 | Venice & Santa Monica, CA
-| Time  | Activity                  | Category    | Notes                                                        |
-|-------|---------------------------|-------------|--------------------------------------------------------------|
-| 10:00 | The Getty Villa           | sightseeing | Free but advance reservation required — book before the trip; allow ~2.5 hrs |
-| 13:00 | Lunch at Gjusta           | food        | Legendary Venice bakery/deli — sandwiches, pastries, long but worth it |
-| 15:30 | Venice Beach Boardwalk    | sightseeing | Murals, street performers, skate park — full sensory overload |
-| 17:00 | Abbot Kinney Boulevard    | sightseeing | Boutiques, galleries, coffee — great golden hour street to wander |
-| 18:30 | Santa Monica Pier         | sightseeing | Arrive before sunset for the best view; Pacific Park Ferris wheel is iconic |
-| 20:00 | Dinner                    | food        | Santa Monica or Venice — plenty of options nearby            |
 
 ## Day 9 — Oct 9 | Hollywood, CA
 | Time  | Activity                              | Category      | Notes                                                         |
