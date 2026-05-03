@@ -15,30 +15,30 @@
 ## Day 1 — Oct ? | Marin & San Francisco, CA
 | Time  | Activity                      | Category    | Notes |
 |-------|-------------------------------|-------------|-------|
-| 08:30 | Drive from Hayward            | travel      | Bay Bridge into SF, then north across the Golden Gate into Marin — ~1 hr total |
+| 08:00 | Drive from Milpitas           | travel      | Bay Bridge into SF, then north across the Golden Gate into Marin — ~1 hr 15 min–1 hr 30 min total |
 | 09:30 | Battery Spencer               | sightseeing | Marin Headlands overlook just above the Golden Gate — best panoramic view of the bridge and SF skyline; go early before the crowds |
 | 11:00 | Sausalito                     | sightseeing | Charming waterfront village below the headlands — stroll Bridgeway, browse galleries, watch the houseboats |
 | 12:30 | Lunch in Sausalito            | food        | Plenty of cafés and spots along the water — sit outside with bay views |
 | 14:00 | Drive back across Golden Gate | travel      | Head south back into SF through the Presidio to Baker Beach |
 | 14:30 | Baker Beach                   | sightseeing | SF-side beach with the Golden Gate looming directly above — great afternoon light on the bridge |
-| 16:00 | Drive back to Hayward         | travel      | ~30-40 min back across the Bay Bridge |
+| 16:00 | Drive back to Milpitas        | travel      | ~45-55 min back across the Bay Bridge |
 
 ## Day 2 — Oct ? | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
 |-------|---------------------------|-------------|-------|
-| 09:00 | Drive from Hayward        | travel      | Cross the Bay Bridge into SF — ~30-45 min depending on traffic |
+| 09:00 | Drive from Milpitas       | travel      | Cross the Bay Bridge into SF — ~45-60 min depending on traffic |
 | 10:00 | Pier 39                   | sightseeing | First stop near the Bay Bridge landing — sea lions on K-Dock, morning bay views, easy parking in the garage nearby |
 | 11:00 | Fisherman's Wharf         | sightseeing | Wander the docks at your own pace — street performers, fresh crab stalls, views of Alcatraz |
 | 12:00 | Clam Chowder              | food        | Grab a chowder cup at any stall along the Wharf — a SF classic, best eaten on the water |
 | 12:30 | Boudin Bakery             | food        | SF sourdough since 1849 — watch the bakers, grab a bread bowl or a fresh loaf to take home |
 | 14:00 | Lombard Street            | sightseeing | Drive up to Russian Hill — walk down the famous crooked one-block hairpin turns, great views at the top |
 | 15:30 | Palace of the Fine Arts   | sightseeing | End the day at the peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light |
-| 16:30 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
+| 16:30 | Drive back to Milpitas    | travel      | ~45-60 min back across the Bay Bridge |
 
 ## Day 3 — Oct ? | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
 |-------|---------------------------|-------------|-------|
-| 09:00 | Drive from Hayward        | travel      | Bay Bridge into SF — ~30-45 min |
+| 09:00 | Drive from Milpitas       | travel      | Bay Bridge into SF — ~45-60 min |
 | 10:00 | Alamo Square Park         | sightseeing | Painted Ladies straight ahead from the park's east hill — best angle for the classic shot; bring coffee and sit on the grass |
 | 10:45 | The Painted Ladies        | sightseeing | Walk the Steiner St side up close — Victorian row houses with the SF skyline behind; free, no entry needed |
 | 11:30 | Haight-Ashbury            | sightseeing | Stroll the whole strip — vintage boutiques, record shops, murals, 60s energy; budget 2+ hrs to browse without rushing |
@@ -46,12 +46,12 @@
 | 14:30 | Lunch on Haight St        | food        | Cheap and easy options all along the strip — grab something and keep walking |
 | 15:30 | Valencia St               | sightseeing | Mission District's main drag — indie bookstores, murals, cafés, relaxed vibe; free to wander |
 | 17:30 | Chase Center              | sightseeing | Walk the waterfront plaza outside — public art, bay views, no ticket needed |
-| 18:30 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
+| 18:30 | Drive back to Milpitas    | travel      | ~45-60 min back across the Bay Bridge |
 
 ## Day 4 — Oct ? | Half Moon Bay & Monterey, CA
 | Time  | Activity                  | Category      | Notes                                                          |
 |-------|---------------------------|---------------|----------------------------------------------------------------|
-| 07:00 | Drive from Hayward        | travel        | Head south on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~45-60 min |
+| 07:00 | Drive from Milpitas       | travel        | Head north on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~1 hr–1 hr 15 min |
 | 08:00 | Half Moon Bay             | sightseeing   | Coastal town south of SF — beach walk, sea cliffs, Mavericks surf spot nearby |
 | 10:30 | Drive south on Hwy 1      | travel        | Scenic Pacific Coast Highway south to Monterey (~2 hrs)        |
 | 12:30 | Monterey lunch            | food          | Quick Cannery Row walk + lunch by the water                    |
@@ -173,32 +173,32 @@
 | 14:00 | Mirror Lake Loop                  | sightseeing | ~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great |
 | 16:00 | Sentinel Bridge — Half Dome View  | sightseeing | Good late afternoon light on Half Dome             |
 | 16:45 | Tunnel View                       | sightseeing | Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall |
-| 18:00 | Stay: Hayward (3.5h) or Oakhurst? | accommodation | **Option A:** Drive ~3.5 hrs back to Hayward (exit Yosemite ~18:00, arrive ~21:30) · **Option B:** Stay overnight in Oakhurst (~45 min from Yosemite south gate — closer base, more rest) |
+| 18:00 | Stay: Milpitas (3.5-4h) or Oakhurst? | accommodation | **Option A:** Drive ~3.5–4 hrs back to Milpitas (exit Yosemite ~18:00, arrive ~21:30–22:00) · **Option B:** Stay overnight in Oakhurst (~45 min from Yosemite south gate — closer base, more rest) |
 
 ## Day 14 — Oct ? | Livermore, CA
 | Time  | Activity                          | Category    | Notes |
 |-------|-----------------------------------|-------------|-------|
-| 09:30 | Drive from Hayward                | travel      | ~25-30 min east on I-580 to Livermore — no bridge traffic |
+| 09:30 | Drive from Milpitas               | travel      | ~25-35 min via I-680 N to I-580 E to Livermore — no bridge traffic |
 | 10:00 | San Francisco Premium Outlets     | sightseeing | Opens at 10am — 180+ outlet stores including Nike, Coach, Michael Kors, Kate Spade, Levi's, and more |
 | 12:30 | Lunch at the outlets              | food        | Several dining options on-site — grab a bite and keep going |
 | 13:30 | Continue shopping                 | sightseeing | Afternoon is the best time to hit the bigger anchor stores before crowds thin out |
-| 17:00 | Drive back to Hayward             | travel      | ~25-30 min back on I-580 |
+| 17:00 | Drive back to Milpitas            | travel      | ~25-35 min back on I-580 W to I-680 S |
 
 ## Day 15 — Oct ? | Silicon Valley & Stanford, CA
 | Time  | Activity                             | Category      | Notes                                                          |
 |-------|--------------------------------------|---------------|----------------------------------------------------------------|
-| 09:15 | Drive from Hayward                   | travel        | Head south on I-880 to I-237 / Lawrence Expressway into Cupertino — ~40 min |
+| 09:30 | Drive from Milpitas                  | travel        | Head south on I-880 or take I-237 W via Lawrence Expressway into Cupertino — ~20-25 min |
 | 10:00 | Apple Park Visitor Center            | sightseeing   | Public-facing store with views of the spaceship campus; great architecture and Apple merch |
 | 11:30 | Google Visitor Experience            | sightseeing   | Outdoor photo stop only — colorful bikes, Android statues, Googleplex grounds; 15 min, no public access inside |
 | 12:00 | Lunch near Stanford                  | food          | ~15 min drive from Google to Palo Alto — University Ave or California Ave have great options |
 | 13:00 | Stanford University Campus           | sightseeing   | Walk the Main Quad, Memorial Church, and the Oval; free to explore |
 | 14:30 | Stanford Bookstore                   | sightseeing   | Large campus bookstore with Stanford gear and a good general book section |
-| 17:00 | Drive to Hayward                     | travel        | ~30–40 min across the bay from Stanford                       |
+| 17:00 | Drive to Milpitas                    | travel        | ~25-35 min via Dumbarton Bridge or US-101 N to I-237 E        |
 
 ## Day 16 — Oct ? | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
 |-------|---------------------------|-------------|-------|
-| 09:00 | Drive from Hayward        | travel      | Bay Bridge into SF — ~30-45 min; park near the Embarcadero |
+| 09:00 | Drive from Milpitas       | travel      | Bay Bridge into SF — ~45-60 min; park near the Embarcadero |
 | 10:00 | Ferry Building            | sightseeing | Marketplace along the waterfront — local vendors, coffee, bakeries; great morning energy even without the Saturday market |
 | 11:00 | Chinatown                 | sightseeing | Enter through Dragon Gate on Grant Ave — fortune cookie factory, herb shops, dim sum bakeries, easy to wander |
 | 12:30 | Lunch in Chinatown        | food        | Tons of cheap, authentic options along Grant Ave and surrounding streets |
@@ -206,6 +206,6 @@
 | 14:30 | Cable Car                 | travel      | Catch the California St line from the base of Nob Hill — classic SF experience, $8 per ride |
 | 15:00 | 890 California St         | sightseeing | Nob Hill stop along the cable car route |
 | 15:30 | Union Square              | sightseeing | SF's main shopping hub — department stores, boutiques, designer brands; take your time, end the trip here |
-| 18:00 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
+| 18:00 | Drive back to Milpitas    | travel      | ~45-60 min back across the Bay Bridge |
 
 <!-- Add more days below using the same format -->
