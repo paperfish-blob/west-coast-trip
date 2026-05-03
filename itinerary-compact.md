@@ -148,12 +148,12 @@
 | 14:30 | Moro Rock                         | sightseeing | 350 steps to the summit; 360° views of the Great Western Divide |
 | 15:30 | Tunnel Log                        | sightseeing | Drive or walk through a fallen sequoia on Crescent Meadow Rd    |
 | 17:00 | Beetle Rock — sunset viewpoint    | sightseeing   | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
-| 18:30 | Check in — Grant Grove Village    | accommodation | ~35-40 min north on Generals Hwy; base for Day 12 Kings Canyon start |
+| 18:30 | Check in — Pinehurst or Etheda Springs area | accommodation | ~1.25 hr; base for Day 12 Kings Canyon start |
 
 ## Day 12 — Oct ? | Kings Canyon & Sequoia NP, CA
 | Time  | Activity                          | Category      | Notes                                                        |
 |-------|-----------------------------------|---------------|--------------------------------------------------------------|
-| 07:55 | Drive from Grant Grove Village    | travel        | Under 1 mile to the General Grant Tree trailhead — ~2-3 min |
+| 07:20 | Drive from Pinehurst / Etheda Springs area | travel        | ~20-30 min to the General Grant Tree trailhead via CA-245 N to Hwy 180 E |
 | 08:00 | General Grant Tree                | sightseeing   | World's second largest tree; go early before tour buses arrive |
 | 09:30 | Hume Lake + breakfast picnic      | food          | Peaceful reservoir ~10 min from Grant Grove; pack breakfast the night before |
 | 12:00 | Grizzly Falls + lunch             | food          | Beautiful roadside waterfall along Hwy 180; pack lunch to eat nearby |
