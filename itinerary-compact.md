@@ -75,7 +75,7 @@
 | 14:30 | Drive to Malibu           | travel      | ~1.5 hrs south on Hwy 101 / PCH                                     |
 | 16:30 | Malibu Pier               | sightseeing | Walk the pier; good late afternoon light over the Pacific            |
 | 17:30 | Drive to Santa Monica     | travel      | Head south from Malibu on PCH toward Santa Monica — ~1 hr depending on traffic |
-| 18:30 | Stay in Santa Monica      | accommodation | **Airbnb/VRBO** — Search for 2-bedroom apartments or houses ($150–250/night whole place, $30–60/person for 4-5 people). Kitchen saves on meals. Close to The Getty Villa & Day 7 activities. |
+| 18:30 | Stay in Santa Monica      | accommodation | **Airbnb/VRBO** — Search for 2-bedroom apartments or houses ($150–250/night whole place, $30–60/person for 4-5 people). Kitchen saves on meals. Close to The Getty Villa & Day 8 activities. |
 
 ## Day 6 — Oct ? | Venice & Santa Monica, CA
 | Time  | Activity                  | Category    | Notes                                                        |
@@ -89,7 +89,15 @@
 | 20:00 | Dinner                    | food        | Santa Monica or Venice — plenty of options nearby            |
 | 21:30 | Check in — Los Angeles    | accommodation | **Koreatown or Silver Lake** recommended — significantly cheaper than Santa Monica ($80–140/night hotel or Airbnb); central base for Day 8 Downtown and Day 9 Hollywood activities |
 
-## Day 7 — Oct ? | Los Angeles, CA
+## Day 7 — Oct ? | Disneyland, Anaheim, CA
+| Time  | Activity                              | Category      | Notes                                                               |
+|-------|---------------------------------------|---------------|---------------------------------------------------------------------|
+| 07:30 | Drive from LA to Anaheim              | travel        | ~35-40 min from Koreatown/Silver Lake via I-5 S; arrive before park opens |
+| 08:30 | Disneyland — full day                 | sightseeing   |                                                                     |
+| 21:30 | Drive back to LA base                 | travel        | ~40 min back to Koreatown/Silver Lake via I-5 N                     |
+| 22:30 | Stay in Los Angeles                   | accommodation |                                                                     |
+
+## Day 8 — Oct ? | Los Angeles, CA
 | Time  | Activity                             | Category    | Notes                                                  |
 |-------|--------------------------------------|-------------|--------------------------------------------------------|
 | 09:00 | Walt Disney Concert Hall             | sightseeing | Iconic stainless steel exterior; free self-guided audio tour available |
@@ -101,7 +109,7 @@
 | 17:30 | Arts District                        | sightseeing | Street art, galleries, independent coffee shops        |
 | 19:00 | Stay in Los Angeles                  | accommodation | Same LA base (Koreatown / Silver Lake) — well-placed for Day 9 Griffith Park early start |
 
-## Day 8 — Oct ? | Hollywood, CA
+## Day 9 — Oct ? | Hollywood, CA
 | Time  | Activity                              | Category      | Notes                                                         |
 |-------|---------------------------------------|---------------|---------------------------------------------------------------|
 | 07:30 | Griffith Park Trails — short hike     | sightseeing   | Go early before the heat; Fern Dell or East Observatory Trail are good short options |
@@ -115,7 +123,7 @@
 | 21:00 | Sunset Blvd                           | sightseeing   | The Sunset Strip at night — bars, neon signs, live music venues |
 | 22:30 | Stay in Los Angeles                   | accommodation |                                                               |
 
-## Day 9 — Oct ? | Beverly Hills & Fairfax, CA
+## Day 10 — Oct ? | Beverly Hills & Fairfax, CA
 | Time  | Activity                        | Category    | Notes                                                           |
 |-------|---------------------------------|-------------|-----------------------------------------------------------------|
 | 09:00 | Beverly Gardens Park            | sightseeing | 1.9 mi park along Santa Monica Blvd; Beverly Hills Sign and rose garden |
@@ -128,7 +136,7 @@
 | 16:00 | Drive to Three Rivers           | travel      | ~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs |
 | 20:00 | Check in near Sequoia           | accommodation | **Option A:** Three Rivers (~15 min from Sequoia entrance) · **Option B:** Visalia (~45 min from entrance, more hotel options) · **Option C:** Oak Haven Cabin (inside Sequoia NP area — book in advance) |
 
-## Day 10 — Oct ? | Sequoia National Park, CA
+## Day 11 — Oct ? | Sequoia National Park, CA
 | Time  | Activity                          | Category    | Notes                                                          |
 |-------|-----------------------------------|-------------|----------------------------------------------------------------|
 | 08:00 | Drive from Three Rivers           | travel      | ~15-20 min via Hwy 198 to Sequoia's Foothills entrance        |
@@ -142,7 +150,7 @@
 | 17:00 | Beetle Rock — sunset viewpoint    | sightseeing   | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
 | 18:30 | Check in — Grant Grove Village    | accommodation | ~35-40 min north on Generals Hwy; base for Day 12 Kings Canyon start |
 
-## Day 11 — Oct ? | Kings Canyon & Sequoia NP, CA
+## Day 12 — Oct ? | Kings Canyon & Sequoia NP, CA
 | Time  | Activity                          | Category      | Notes                                                        |
 |-------|-----------------------------------|---------------|--------------------------------------------------------------|
 | 07:55 | Drive from Grant Grove Village    | travel        | Under 1 mile to the General Grant Tree trailhead — ~2-3 min |
@@ -155,7 +163,7 @@
 | 18:30 | Drive to Wawona / Oakhurst        | travel        | ~2 hrs from Grant Grove via Hwy 180 W → CA-41 N toward Yosemite south gate |
 | 20:30 | Check in — Wawona or Oakhurst     | accommodation | **Option A:** Wawona Hotel (inside Yosemite, pay park entry at gate, 45 min to Valley) · **Option B:** Oakhurst (~1 hr to Valley, more hotel choices, no park entry needed until morning) |
 
-## Day 12 — Oct ? | Yosemite National Park, CA
+## Day 13 — Oct ? | Yosemite National Park, CA
 | Time  | Activity                          | Category    | Notes                                              |
 |-------|-----------------------------------|-------------|----------------------------------------------------|
 | 08:00 | Drive to Yosemite Valley          | travel      | From Wawona: ~27 miles / 45 min via Wawona Rd · From Oakhurst: ~45 miles / 1 hr via CA-41 N through south gate |
@@ -170,7 +178,7 @@
 | 19:00 | Drive back to Milpitas            | travel        | ~3.5–4 hrs via CA-41 S then I-5 N or US-99 N to I-205 W to I-580 W — exit Yosemite ~19:00 |
 | 21:30 | Arrive Milpitas                   | accommodation | Back at home base — ~21:30–22:00 arrival |
 
-## Day 13 — Oct ? | San Jose & Outlet, CA
+## Day 14 — Oct ? | San Jose & Outlet, CA
 | Time  | Activity                             | Category      | Notes                                                          |
 |-------|--------------------------------------|---------------|----------------------------------------------------------------|
 | 09:00 | Drive from Milpitas to Cupertino     | travel        | Head south on I-880 or I-237 W via Lawrence Expressway — ~20-25 min |
