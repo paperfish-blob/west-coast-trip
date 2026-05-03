@@ -149,7 +149,8 @@ const DAYS = [
     {t:"15:30", name:"Venice Beach Boardwalk", cat:"sightseeing", notes:"Murals, street performers, skate park — full sensory overload"},
     {t:"17:00", name:"Abbot Kinney Boulevard", cat:"sightseeing", notes:"Boutiques, galleries, coffee — great golden hour street to wander"},
     {t:"18:30", name:"Santa Monica Pier", cat:"sightseeing", notes:"Arrive before sunset for the best view; Pacific Park Ferris wheel is iconic"},
-    {t:"20:00", name:"Dinner", cat:"food", notes:"Santa Monica or Venice — plenty of options nearby"}
+    {t:"20:00", name:"Dinner", cat:"food", notes:"Santa Monica or Venice — plenty of options nearby"},
+    {t:"21:30", name:"Check in — Los Angeles", cat:"accommodation", notes:"Koreatown or Silver Lake recommended — significantly cheaper than Santa Monica ($80–140/night hotel or Airbnb); central base for Day 8 Downtown and Day 9 Hollywood activities"}
   ]},
     {n:8, date:"Oct ?", loc:"Los Angeles, CA", acts:[
     {t:"09:00", name:"Walt Disney Concert Hall", cat:"sightseeing", notes:"Iconic stainless steel exterior; free self-guided audio tour available"},
@@ -158,15 +159,16 @@ const DAYS = [
     {t:"13:30", name:"Lunch at Grand Central Market", cat:"food", notes:"Iconic indoor market since 1917 — lots of vendors, arrive hungry"},
     {t:"15:00", name:"The Last Bookstore", cat:"sightseeing", notes:"Huge independent bookstore with art installations; Spring St"},
     {t:"16:00", name:"Little Tokyo", cat:"sightseeing", notes:"Japanese Village Plaza, temples, Japanese snacks"},
-    {t:"17:30", name:"Arts District", cat:"sightseeing", notes:"Street art, galleries, independent coffee shops"}
+    {t:"17:30", name:"Arts District", cat:"sightseeing", notes:"Street art, galleries, independent coffee shops"},
+    {t:"19:00", name:"Stay in Los Angeles", cat:"accommodation", notes:"Same LA base (Koreatown / Silver Lake) — well-placed for Day 9 Griffith Park early start"}
   ]},
   {n:9, date:"Oct ?", loc:"Hollywood, CA", acts:[
-    {t:"07:30", name:"Griffith Park Trails", cat:"sightseeing", notes:"Go early before the heat; Fern Dell or East Observatory Trail are good short options"},
+    {t:"07:30", name:"Griffith Park Trails — short hike", cat:"sightseeing", notes:"Go early before the heat; Fern Dell or East Observatory Trail are good short options"},
     {t:"09:00", name:"Back to Airbnb — shower", cat:"other", notes:""},
     {t:"10:30", name:"Brunch", cat:"food", notes:"Los Feliz or Silver Lake neighbourhood has great brunch spots"},
     {t:"12:00", name:"Lake Hollywood Park", cat:"sightseeing", notes:"Best view of the Hollywood Sign; corner of Mulholland Hwy & Lake Hollywood Dr"},
     {t:"13:30", name:"Lunch", cat:"food", notes:""},
-    {t:"14:30", name:"Hollywood Walk of Fame + TCL", cat:"sightseeing", notes:"Check celebrity handprints at TCL; Walk of Fame runs along Hollywood Blvd"},
+    {t:"14:30", name:"Hollywood Walk of Fame + TCL Chinese Theatre", cat:"sightseeing", notes:"Check celebrity handprints at TCL; Walk of Fame runs along Hollywood Blvd"},
     {t:"16:30", name:"Griffith Observatory", cat:"sightseeing", notes:"Drive up or hike; stunning 360° views of LA and the Hollywood Sign"},
     {t:"19:00", name:"Dinner", cat:"food", notes:""},
     {t:"21:00", name:"Sunset Blvd", cat:"sightseeing", notes:"The Sunset Strip at night — bars, neon signs, live music venues"}
@@ -219,7 +221,7 @@ const DAYS = [
   ]},
   {n:14, date:"Oct ?", loc:"Livermore, CA", acts:[
     {t:"09:30", name:"Drive from Hayward", cat:"travel", notes:"~25-30 min east on I-580 to Livermore — no bridge traffic"},
-    {t:"10:00", name:"SF Premium Outlets", cat:"sightseeing", notes:"Opens at 10am — 180+ outlet stores including Nike, Coach, Michael Kors, Kate Spade, Levi's, and more"},
+    {t:"10:00", name:"San Francisco Premium Outlets", cat:"sightseeing", notes:"Opens at 10am — 180+ outlet stores including Nike, Coach, Michael Kors, Kate Spade, Levi's, and more"},
     {t:"12:30", name:"Lunch at the outlets", cat:"food", notes:"Several dining options on-site — grab a bite and keep going"},
     {t:"13:30", name:"Continue shopping", cat:"sightseeing", notes:"Afternoon is the best time to hit the bigger anchor stores before crowds thin out"},
     {t:"17:00", name:"Drive back to Hayward", cat:"travel", notes:"~25-30 min back on I-580"}
@@ -282,9 +284,9 @@ const IMGS = {
   "The Getty Villa":                  W+'4/4e/060807-002-GettyVilla001.jpg/330px-060807-002-GettyVilla001.jpg',
   "Abbot Kinney Boulevard":           W+'c/c9/Looking_down_Abbot_Kinney.jpg/330px-Looking_down_Abbot_Kinney.jpg',
   "Santa Monica Pier":                W+'3/36/Santa_monica_pier_entrance_evening.jpg/330px-Santa_monica_pier_entrance_evening.jpg',
-  "Griffith Park Trails":             W+'1/1b/Ferndell_griffith_park.jpg/330px-Ferndell_griffith_park.jpg',
+  "Griffith Park Trails — short hike":W+'1/1b/Ferndell_griffith_park.jpg/330px-Ferndell_griffith_park.jpg',
   "Lake Hollywood Park":              W+'5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/330px-Hollywood_Sign_%28Zuschnitt%29.jpg',
-  "Hollywood Walk of Fame + TCL":     W+'2/25/Grauman%27s_Chinese_Theatre%2C_by_Carol_Highsmith_fixed_%26_straightened.jpg/330px-Grauman%27s_Chinese_Theatre%2C_by_Carol_Highsmith_fixed_%26_straightened.jpg',
+  "Hollywood Walk of Fame + TCL Chinese Theatre": W+'2/25/Grauman%27s_Chinese_Theatre%2C_by_Carol_Highsmith_fixed_%26_straightened.jpg/330px-Grauman%27s_Chinese_Theatre%2C_by_Carol_Highsmith_fixed_%26_straightened.jpg',
   "Griffith Observatory":             W+'1/1b/Ferndell_griffith_park.jpg/330px-Ferndell_griffith_park.jpg',
   "Sunset Blvd":                      W+'f/f9/Sunset_Tower%2C_8358_Sunset_Blvd._West_Hollywood_2383.jpg/330px-Sunset_Tower%2C_8358_Sunset_Blvd._West_Hollywood_2383.jpg',
   "Beverly Gardens Park":             W+'a/ab/Beverly_Gardens_Park%2C_LA%2C_CA%2C_jjron_21.03.2012.jpg/330px-Beverly_Gardens_Park%2C_LA%2C_CA%2C_jjron_21.03.2012.jpg',

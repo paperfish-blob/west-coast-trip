@@ -94,6 +94,7 @@
 | 17:00 | Abbot Kinney Boulevard    | sightseeing | Boutiques, galleries, coffee — great golden hour street to wander |
 | 18:30 | Santa Monica Pier         | sightseeing | Arrive before sunset for the best view; Pacific Park Ferris wheel is iconic |
 | 20:00 | Dinner                    | food        | Santa Monica or Venice — plenty of options nearby            |
+| 21:30 | Check in — Los Angeles    | accommodation | **Koreatown or Silver Lake** recommended — significantly cheaper than Santa Monica ($80–140/night hotel or Airbnb); central base for Day 8 Downtown and Day 9 Hollywood activities |
 
 ## Day 8 — Oct 8 | Los Angeles, CA
 | Time  | Activity                             | Category    | Notes                                                  |
@@ -105,6 +106,7 @@
 | 15:00 | The Last Bookstore                   | sightseeing | Huge independent bookstore with art installations; Spring St |
 | 16:00 | Little Tokyo                         | sightseeing | Japanese Village Plaza, temples, Japanese snacks       |
 | 17:30 | Arts District                        | sightseeing | Street art, galleries, independent coffee shops        |
+| 19:00 | Stay in Los Angeles                  | accommodation | Same LA base (Koreatown / Silver Lake) — well-placed for Day 9 Griffith Park early start |
 
 ## Day 9 — Oct 9 | Hollywood, CA
 | Time  | Activity                              | Category      | Notes                                                         |
