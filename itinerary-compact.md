@@ -19,40 +19,29 @@
 | 09:30 | Battery Spencer               | sightseeing | Marin Headlands overlook just above the Golden Gate — best panoramic view of the bridge and SF skyline; go early before the crowds |
 | 11:00 | Sausalito                     | sightseeing | Charming waterfront village below the headlands — stroll Bridgeway, browse galleries, watch the houseboats |
 | 12:30 | Lunch in Sausalito            | food        | Plenty of cafés and spots along the water — sit outside with bay views |
-| 14:00 | Drive back across Golden Gate | travel      | Head south back into SF through the Presidio to Baker Beach |
+| 14:00 | Drive back across Golden Gate | travel      | Head south back into SF through the Presidio to Baker Beach — ~25-30 min |
 | 14:30 | Baker Beach                   | sightseeing | SF-side beach with the Golden Gate looming directly above — great afternoon light on the bridge |
-| 16:00 | Drive back to Milpitas        | travel      | ~45-55 min back across the Bay Bridge |
+| 15:30 | Palace of Fine Arts           | sightseeing | Peaceful lagoon and neoclassical rotunda in the Marina — ~5 min from Baker Beach; beautiful late afternoon light |
+| 16:30 | Ferry Building                | sightseeing | Marketplace along the waterfront — local vendors, coffee, bakeries; great evening energy; ~20 min drive from Palace of Fine Arts |
+| 17:30 | Drive back to Milpitas        | travel      | ~45-55 min back across the Bay Bridge |
 
 ## Day 2 — Oct ? | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
 |-------|---------------------------|-------------|-------|
-| 09:00 | Drive from Milpitas       | travel      | Cross the Bay Bridge into SF — ~45-60 min depending on traffic; park near the Embarcadero |
-| 10:00 | Ferry Building            | sightseeing | Marketplace along the waterfront — local vendors, coffee, bakeries; great morning energy; grab sourdough here instead of Boudin |
-| 10:45 | Pier 39                   | sightseeing | Sea lions on K-Dock, morning bay views, easy parking in the garage nearby |
-| 11:45 | Fisherman's Wharf         | sightseeing | Wander the docks — street performers, fresh crab stalls, views of Alcatraz |
-| 12:15 | Clam Chowder              | food        | Grab a chowder cup at any stall along the Wharf — a SF classic, best eaten on the water |
-| 13:00 | Chinatown + Lunch         | food        | Enter through Dragon Gate on Grant Ave — fortune cookie factory, herb shops, dim sum bakeries; tons of cheap authentic lunch options along Grant Ave |
-| 14:30 | Lombard Street            | sightseeing | Drive up to Russian Hill — walk down the famous crooked one-block hairpin turns, great views at the top |
-| 15:00 | Cable Car                 | travel      | Catch the California St line from the base of Nob Hill — classic SF experience, $8 per ride |
-| 15:30 | 890 California St         | sightseeing | Nob Hill stop along the cable car route |
-| 16:00 | Palace of Fine Arts       | sightseeing | Peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light |
-| 17:00 | Union Square              | sightseeing | SF's main shopping hub — department stores, boutiques, designer brands |
-| 18:00 | Drive back to Milpitas    | travel      | ~45-60 min back across the Bay Bridge |
+| 09:00 | Drive from Milpitas       | travel      | Cross the Bay Bridge into SF — ~45-60 min; park near Pier 39 |
+| 10:00 | Pier 39                   | sightseeing | Sea lions on K-Dock, morning bay views |
+| 10:45 | Fisherman's Wharf + Clam Chowder | food   | Wander the docks — street performers, fresh crab stalls; grab a chowder cup at any stall along the Wharf |
+| 11:30 | Lombard Street            | sightseeing | Drive up to Russian Hill — walk down the famous crooked one-block hairpin turns; ~5 min drive from the Wharf |
+| 12:00 | Cable Car / 890 California St | travel  | Catch the California St line from the base of Nob Hill — classic SF experience, $8 per ride |
+| 12:30 | Chinatown + Lunch         | food        | Enter through Dragon Gate on Grant Ave — fortune cookie factory, herb shops, dim sum bakeries; ~1.5 hrs |
+| 14:15 | Alamo Square + Painted Ladies | sightseeing | ~20 min drive west; best angle from the park's east hill; walk the Steiner St side up close |
+| 15:15 | Haight-Ashbury            | sightseeing | Stroll the whole strip — vintage boutiques, record shops, murals, 60s energy; walking distance from Alamo Square |
+| 16:15 | Amoeba Music              | sightseeing | 1855 Haight St — one of the last great independent record stores; free to browse, used vinyl/CDs for every taste |
+| 17:15 | Valencia St               | sightseeing | Mission District's main drag — indie bookstores, murals, cafés, relaxed vibe; ~10 min drive south |
+| 18:30 | Union Square              | sightseeing | SF's main shopping hub — department stores, boutiques, designer brands; ~20 min drive back east |
+| 19:30 | Drive back to Milpitas    | travel      | ~45-60 min back across the Bay Bridge |
 
-## Day 3 — Oct ? | San Francisco, CA
-| Time  | Activity                  | Category    | Notes |
-|-------|---------------------------|-------------|-------|
-| 09:00 | Drive from Milpitas       | travel      | Bay Bridge into SF — ~45-60 min |
-| 10:00 | Alamo Square Park         | sightseeing | Painted Ladies straight ahead from the park's east hill — best angle for the classic shot; bring coffee and sit on the grass |
-| 10:45 | The Painted Ladies        | sightseeing | Walk the Steiner St side up close — Victorian row houses with the SF skyline behind; free, no entry needed |
-| 11:30 | Haight-Ashbury            | sightseeing | Stroll the whole strip — vintage boutiques, record shops, murals, 60s energy; budget 2+ hrs to browse without rushing |
-| 13:00 | Amoeba Music              | sightseeing | 1855 Haight St — one of the last great independent record stores; free to browse, used vinyl/CDs for every taste |
-| 14:30 | Lunch on Haight St        | food        | Cheap and easy options all along the strip — grab something and keep walking |
-| 15:30 | Valencia St               | sightseeing | Mission District's main drag — indie bookstores, murals, cafés, relaxed vibe; free to wander |
-| 17:30 | Chase Center              | sightseeing | Walk the waterfront plaza outside — public art, bay views, no ticket needed |
-| 18:30 | Drive back to Milpitas    | travel      | ~45-60 min back across the Bay Bridge |
-
-## Day 4 — Oct ? | Half Moon Bay & Monterey, CA
+## Day 3 — Oct ? | Half Moon Bay & Monterey, CA
 | Time  | Activity                  | Category      | Notes                                                          |
 |-------|---------------------------|---------------|----------------------------------------------------------------|
 | 07:00 | Drive from Milpitas       | travel        | Head north on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~1 hr–1 hr 15 min |
@@ -63,7 +52,7 @@
 | 16:00 | Carmel-by-the-Sea         | sightseeing   | Charming village with galleries, boutiques, and a white-sand beach |
 | 18:30 | Check in near Monterey    | accommodation |                                                                |
 
-## Day 5 — Oct ? | Big Sur & SLO Coast, CA
+## Day 4 — Oct ? | Big Sur & SLO Coast, CA
 | Time  | Activity                              | Category    | Notes                                                               |
 |-------|---------------------------------------|-------------|---------------------------------------------------------------------|
 | 08:00 | Depart Monterey                       | travel      | Head south on Hwy 1 — fuel up and pack snacks, limited stops ahead  |
@@ -77,7 +66,7 @@
 | 17:00 | San Luis Obispo                       | sightseeing | Lively college town — Mission San Luis Obispo, Higuera St for dinner  |
 | 18:00 | Stay in San Luis Obispo               | accommodation |                                                                |
 
-## Day 6 — Oct ? | Solvang, Santa Barbara & Malibu, CA
+## Day 5 — Oct ? | Solvang, Santa Barbara & Malibu, CA
 | Time  | Activity                  | Category    | Notes                                                               |
 |-------|---------------------------|-------------|---------------------------------------------------------------------|
 | 08:00 | Depart SLO                | travel      | Head south on Hwy 101                                               |
@@ -88,7 +77,7 @@
 | 17:30 | Drive to Santa Monica     | travel      | Head south from Malibu on PCH toward Santa Monica — ~1 hr depending on traffic |
 | 18:30 | Stay in Santa Monica      | accommodation | **Airbnb/VRBO** — Search for 2-bedroom apartments or houses ($150–250/night whole place, $30–60/person for 4-5 people). Kitchen saves on meals. Close to The Getty Villa & Day 7 activities. |
 
-## Day 7 — Oct ? | Venice & Santa Monica, CA
+## Day 6 — Oct ? | Venice & Santa Monica, CA
 | Time  | Activity                  | Category    | Notes                                                        |
 |-------|---------------------------|-------------|--------------------------------------------------------------|
 | 09:30 | Drive to Getty Villa      | travel      | From Santa Monica to Pacific Palisades — ~15-20 min depending on traffic |
@@ -100,7 +89,7 @@
 | 20:00 | Dinner                    | food        | Santa Monica or Venice — plenty of options nearby            |
 | 21:30 | Check in — Los Angeles    | accommodation | **Koreatown or Silver Lake** recommended — significantly cheaper than Santa Monica ($80–140/night hotel or Airbnb); central base for Day 8 Downtown and Day 9 Hollywood activities |
 
-## Day 8 — Oct ? | Los Angeles, CA
+## Day 7 — Oct ? | Los Angeles, CA
 | Time  | Activity                             | Category    | Notes                                                  |
 |-------|--------------------------------------|-------------|--------------------------------------------------------|
 | 09:00 | Walt Disney Concert Hall             | sightseeing | Iconic stainless steel exterior; free self-guided audio tour available |
@@ -112,7 +101,7 @@
 | 17:30 | Arts District                        | sightseeing | Street art, galleries, independent coffee shops        |
 | 19:00 | Stay in Los Angeles                  | accommodation | Same LA base (Koreatown / Silver Lake) — well-placed for Day 9 Griffith Park early start |
 
-## Day 9 — Oct ? | Hollywood, CA
+## Day 8 — Oct ? | Hollywood, CA
 | Time  | Activity                              | Category      | Notes                                                         |
 |-------|---------------------------------------|---------------|---------------------------------------------------------------|
 | 07:30 | Griffith Park Trails — short hike     | sightseeing   | Go early before the heat; Fern Dell or East Observatory Trail are good short options |
@@ -125,7 +114,7 @@
 | 19:00 | Dinner                                | food          |                                                               |
 | 21:00 | Sunset Blvd                           | sightseeing   | The Sunset Strip at night — bars, neon signs, live music venues |
 
-## Day 10 — Oct ? | Beverly Hills & Fairfax, CA
+## Day 9 — Oct ? | Beverly Hills & Fairfax, CA
 | Time  | Activity                        | Category    | Notes                                                           |
 |-------|---------------------------------|-------------|-----------------------------------------------------------------|
 | 09:00 | Beverly Gardens Park            | sightseeing | 1.9 mi park along Santa Monica Blvd; Beverly Hills Sign and rose garden |
@@ -138,7 +127,7 @@
 | 16:00 | Drive to Three Rivers           | travel      | ~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs |
 | 20:00 | Check in near Sequoia           | accommodation | **Option A:** Three Rivers (~15 min from Sequoia entrance) · **Option B:** Visalia (~45 min from entrance, more hotel options) · **Option C:** Oak Haven Cabin (inside Sequoia NP area — book in advance) |
 
-## Day 11 — Oct ? | Sequoia National Park, CA
+## Day 10 — Oct ? | Sequoia National Park, CA
 | Time  | Activity                          | Category    | Notes                                                          |
 |-------|-----------------------------------|-------------|----------------------------------------------------------------|
 | 08:00 | Drive from Three Rivers           | travel      | ~15-20 min via Hwy 198 to Sequoia's Foothills entrance        |
@@ -152,7 +141,7 @@
 | 17:00 | Beetle Rock — sunset viewpoint    | sightseeing   | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
 | 18:30 | Check in — Grant Grove Village    | accommodation | ~35-40 min north on Generals Hwy; base for Day 12 Kings Canyon start |
 
-## Day 12 — Oct ? | Kings Canyon & Sequoia NP, CA
+## Day 11 — Oct ? | Kings Canyon & Sequoia NP, CA
 | Time  | Activity                          | Category      | Notes                                                        |
 |-------|-----------------------------------|---------------|--------------------------------------------------------------|
 | 07:55 | Drive from Grant Grove Village    | travel        | Under 1 mile to the General Grant Tree trailhead — ~2-3 min |
@@ -165,7 +154,7 @@
 | 18:30 | Drive to Wawona / Oakhurst        | travel        | ~2 hrs from Grant Grove via Hwy 180 W → CA-41 N toward Yosemite south gate |
 | 20:30 | Check in — Wawona or Oakhurst     | accommodation | **Option A:** Wawona Hotel (inside Yosemite, pay park entry at gate, 45 min to Valley) · **Option B:** Oakhurst (~1 hr to Valley, more hotel choices, no park entry needed until morning) |
 
-## Day 13 — Oct ? | Yosemite National Park, CA
+## Day 12 — Oct ? | Yosemite National Park, CA
 | Time  | Activity                          | Category    | Notes                                              |
 |-------|-----------------------------------|-------------|----------------------------------------------------|
 | 08:00 | Drive to Yosemite Valley          | travel      | From Wawona: ~27 miles / 45 min via Wawona Rd · From Oakhurst: ~45 miles / 1 hr via CA-41 N through south gate |
@@ -180,7 +169,7 @@
 | 19:00 | Drive back to Milpitas            | travel        | ~3.5–4 hrs via CA-41 S then I-5 N or US-99 N to I-205 W to I-580 W — exit Yosemite ~19:00 |
 | 21:30 | Arrive Milpitas                   | accommodation | Back at home base — ~21:30–22:00 arrival |
 
-## Day 14 — Oct ? | San Jose & Outlet, CA
+## Day 13 — Oct ? | San Jose & Outlet, CA
 | Time  | Activity                             | Category      | Notes                                                          |
 |-------|--------------------------------------|---------------|----------------------------------------------------------------|
 | 09:00 | Drive from Milpitas to Cupertino     | travel        | Head south on I-880 or I-237 W via Lawrence Expressway — ~20-25 min |
