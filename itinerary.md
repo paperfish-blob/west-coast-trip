@@ -120,6 +120,7 @@
 | 16:30 | Griffith Observatory                  | sightseeing   | Drive up or hike; stunning 360° views of LA and the Hollywood Sign |
 | 19:00 | Dinner                                | food          |                                                               |
 | 21:00 | Sunset Blvd                           | sightseeing   | The Sunset Strip at night — bars, neon signs, live music venues |
+| 22:30 | Stay in Los Angeles                   | accommodation |                                                               |
 
 ## Day 10 — Oct ? | Beverly Hills & Fairfax, CA
 | Time  | Activity                        | Category    | Notes                                                           |
