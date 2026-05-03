@@ -12,7 +12,7 @@
   Run /generate-schedule to rebuild schedule.html from this file.
 -->
 
-## Day 1 — Oct 1 | Marin & San Francisco, CA
+## Day 1 — Oct ? | Marin & San Francisco, CA
 | Time  | Activity                      | Category    | Notes |
 |-------|-------------------------------|-------------|-------|
 | 08:30 | Drive from Hayward            | travel      | Bay Bridge into SF, then north across the Golden Gate into Marin — ~1 hr total |
@@ -23,7 +23,7 @@
 | 14:30 | Baker Beach                   | sightseeing | SF-side beach with the Golden Gate looming directly above — great afternoon light on the bridge |
 | 16:00 | Drive back to Hayward         | travel      | ~30-40 min back across the Bay Bridge |
 
-## Day 2 — Oct 2 | San Francisco, CA
+## Day 2 — Oct ? | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
 |-------|---------------------------|-------------|-------|
 | 09:00 | Drive from Hayward        | travel      | Cross the Bay Bridge into SF — ~30-45 min depending on traffic |
@@ -35,7 +35,7 @@
 | 15:30 | Palace of the Fine Arts   | sightseeing | End the day at the peaceful lagoon and neoclassical rotunda in the Marina — beautiful late afternoon light |
 | 16:30 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
 
-## Day 3 — Oct 3 | San Francisco, CA
+## Day 3 — Oct ? | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
 |-------|---------------------------|-------------|-------|
 | 09:00 | Drive from Hayward        | travel      | Bay Bridge into SF — ~30-45 min |
@@ -48,7 +48,7 @@
 | 17:30 | Chase Center              | sightseeing | Walk the waterfront plaza outside — public art, bay views, no ticket needed |
 | 18:30 | Drive back to Hayward     | travel      | ~30-45 min back across the Bay Bridge |
 
-## Day 4 — Oct 4 | Half Moon Bay & Monterey, CA
+## Day 4 — Oct ? | Half Moon Bay & Monterey, CA
 | Time  | Activity                  | Category      | Notes                                                          |
 |-------|---------------------------|---------------|----------------------------------------------------------------|
 | 07:00 | Drive from Hayward        | travel        | Head south on I-880 to Hwy 92 W over the San Mateo Bridge, then Hwy 1 south — ~45-60 min |
@@ -59,7 +59,7 @@
 | 16:00 | Carmel-by-the-Sea         | sightseeing   | Charming village with galleries, boutiques, and a white-sand beach |
 | 18:30 | Check in near Monterey    | accommodation |                                                                |
 
-## Day 5 — Oct 5 | Big Sur & SLO Coast, CA
+## Day 5 — Oct ? | Big Sur & SLO Coast, CA
 | Time  | Activity                              | Category    | Notes                                                               |
 |-------|---------------------------------------|-------------|---------------------------------------------------------------------|
 | 08:00 | Depart Monterey                       | travel      | Head south on Hwy 1 — fuel up and pack snacks, limited stops ahead  |
@@ -73,7 +73,7 @@
 | 17:00 | San Luis Obispo                       | sightseeing | Lively college town — Mission San Luis Obispo, Higuera St for dinner  |
 | 18:00 | Stay in San Luis Obispo               | accommodation |                                                                |
 
-## Day 6 — Oct 6 | Solvang, Santa Barbara & Malibu, CA
+## Day 6 — Oct ? | Solvang, Santa Barbara & Malibu, CA
 | Time  | Activity                  | Category    | Notes                                                               |
 |-------|---------------------------|-------------|---------------------------------------------------------------------|
 | 08:00 | Depart SLO                | travel      | Head south on Hwy 101                                               |
@@ -84,7 +84,7 @@
 | 17:30 | Drive to Santa Monica     | travel      | Head south from Malibu on PCH toward Santa Monica — ~1 hr depending on traffic |
 | 18:30 | Stay in Santa Monica      | accommodation | **Airbnb/VRBO** — Search for 2-bedroom apartments or houses ($150–250/night whole place, $30–60/person for 4-5 people). Kitchen saves on meals. Close to The Getty Villa & Day 7 activities. |
 
-## Day 7 — Oct 7 | Venice & Santa Monica, CA
+## Day 7 — Oct ? | Venice & Santa Monica, CA
 | Time  | Activity                  | Category    | Notes                                                        |
 |-------|---------------------------|-------------|--------------------------------------------------------------|
 | 09:30 | Drive to Getty Villa      | travel      | From Santa Monica to Pacific Palisades — ~15-20 min depending on traffic |
@@ -96,7 +96,7 @@
 | 20:00 | Dinner                    | food        | Santa Monica or Venice — plenty of options nearby            |
 | 21:30 | Check in — Los Angeles    | accommodation | **Koreatown or Silver Lake** recommended — significantly cheaper than Santa Monica ($80–140/night hotel or Airbnb); central base for Day 8 Downtown and Day 9 Hollywood activities |
 
-## Day 8 — Oct 8 | Los Angeles, CA
+## Day 8 — Oct ? | Los Angeles, CA
 | Time  | Activity                             | Category    | Notes                                                  |
 |-------|--------------------------------------|-------------|--------------------------------------------------------|
 | 09:00 | Walt Disney Concert Hall             | sightseeing | Iconic stainless steel exterior; free self-guided audio tour available |
@@ -108,7 +108,7 @@
 | 17:30 | Arts District                        | sightseeing | Street art, galleries, independent coffee shops        |
 | 19:00 | Stay in Los Angeles                  | accommodation | Same LA base (Koreatown / Silver Lake) — well-placed for Day 9 Griffith Park early start |
 
-## Day 9 — Oct 9 | Hollywood, CA
+## Day 9 — Oct ? | Hollywood, CA
 | Time  | Activity                              | Category      | Notes                                                         |
 |-------|---------------------------------------|---------------|---------------------------------------------------------------|
 | 07:30 | Griffith Park Trails — short hike     | sightseeing   | Go early before the heat; Fern Dell or East Observatory Trail are good short options |
@@ -121,7 +121,7 @@
 | 19:00 | Dinner                                | food          |                                                               |
 | 21:00 | Sunset Blvd                           | sightseeing   | The Sunset Strip at night — bars, neon signs, live music venues |
 
-## Day 10 — Oct 10 | Beverly Hills & Fairfax, CA
+## Day 10 — Oct ? | Beverly Hills & Fairfax, CA
 | Time  | Activity                        | Category    | Notes                                                           |
 |-------|---------------------------------|-------------|-----------------------------------------------------------------|
 | 09:00 | Beverly Gardens Park            | sightseeing | 1.9 mi park along Santa Monica Blvd; Beverly Hills Sign and rose garden |
@@ -134,7 +134,7 @@
 | 16:00 | Drive to Three Rivers           | travel      | ~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs |
 | 20:00 | Check in near Sequoia           | accommodation | **Option A:** Three Rivers (~15 min from Sequoia entrance) · **Option B:** Visalia (~45 min from entrance, more hotel options) · **Option C:** Oak Haven Cabin (inside Sequoia NP area — book in advance) |
 
-## Day 11 — Oct 11 | Sequoia National Park, CA
+## Day 11 — Oct ? | Sequoia National Park, CA
 | Time  | Activity                          | Category    | Notes                                                          |
 |-------|-----------------------------------|-------------|----------------------------------------------------------------|
 | 08:00 | Drive from Three Rivers           | travel      | ~15-20 min via Hwy 198 to Sequoia's Foothills entrance        |
@@ -148,7 +148,7 @@
 | 17:00 | Beetle Rock — sunset viewpoint    | sightseeing   | Flat granite outcropping near Giant Forest Museum; wide open sky for sunset |
 | 18:30 | Check in — Grant Grove Village    | accommodation | ~35-40 min north on Generals Hwy; base for Day 12 Kings Canyon start |
 
-## Day 12 — Oct 12 | Kings Canyon & Sequoia NP, CA
+## Day 12 — Oct ? | Kings Canyon & Sequoia NP, CA
 | Time  | Activity                          | Category      | Notes                                                        |
 |-------|-----------------------------------|---------------|--------------------------------------------------------------|
 | 07:55 | Drive from Grant Grove Village    | travel        | Under 1 mile to the General Grant Tree trailhead — ~2-3 min |
@@ -161,7 +161,7 @@
 | 18:30 | Drive to Wawona / Oakhurst        | travel        | ~2 hrs from Grant Grove via Hwy 180 W → CA-41 N toward Yosemite south gate |
 | 20:30 | Check in — Wawona or Oakhurst     | accommodation | **Option A:** Wawona Hotel (inside Yosemite, pay park entry at gate, 45 min to Valley) · **Option B:** Oakhurst (~1 hr to Valley, more hotel choices, no park entry needed until morning) |
 
-## Day 13 — Oct 13 | Yosemite National Park, CA
+## Day 13 — Oct ? | Yosemite National Park, CA
 | Time  | Activity                          | Category    | Notes                                              |
 |-------|-----------------------------------|-------------|----------------------------------------------------|
 | 08:00 | Drive to Yosemite Valley          | travel      | From Wawona: ~27 miles / 45 min via Wawona Rd · From Oakhurst: ~45 miles / 1 hr via CA-41 N through south gate |
@@ -175,7 +175,7 @@
 | 16:45 | Tunnel View                       | sightseeing | Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall |
 | 18:00 | Stay: Hayward (3.5h) or Oakhurst? | accommodation | **Option A:** Drive ~3.5 hrs back to Hayward (exit Yosemite ~18:00, arrive ~21:30) · **Option B:** Stay overnight in Oakhurst (~45 min from Yosemite south gate — closer base, more rest) |
 
-## Day 14 — Oct 14 | Livermore, CA
+## Day 14 — Oct ? | Livermore, CA
 | Time  | Activity                          | Category    | Notes |
 |-------|-----------------------------------|-------------|-------|
 | 09:30 | Drive from Hayward                | travel      | ~25-30 min east on I-580 to Livermore — no bridge traffic |
@@ -184,7 +184,7 @@
 | 13:30 | Continue shopping                 | sightseeing | Afternoon is the best time to hit the bigger anchor stores before crowds thin out |
 | 17:00 | Drive back to Hayward             | travel      | ~25-30 min back on I-580 |
 
-## Day 15 — Oct 15 | Silicon Valley & Stanford, CA
+## Day 15 — Oct ? | Silicon Valley & Stanford, CA
 | Time  | Activity                             | Category      | Notes                                                          |
 |-------|--------------------------------------|---------------|----------------------------------------------------------------|
 | 09:15 | Drive from Hayward                   | travel        | Head south on I-880 to I-237 / Lawrence Expressway into Cupertino — ~40 min |
@@ -195,7 +195,7 @@
 | 14:30 | Stanford Bookstore                   | sightseeing   | Large campus bookstore with Stanford gear and a good general book section |
 | 17:00 | Drive to Hayward                     | travel        | ~30–40 min across the bay from Stanford                       |
 
-## Day 16 — Oct 16 | San Francisco, CA
+## Day 16 — Oct ? | San Francisco, CA
 | Time  | Activity                  | Category    | Notes |
 |-------|---------------------------|-------------|-------|
 | 09:00 | Drive from Hayward        | travel      | Bay Bridge into SF — ~30-45 min; park near the Embarcadero |
