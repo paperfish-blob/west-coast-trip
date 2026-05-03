@@ -172,8 +172,9 @@
 | 13:00 | Yosemite Valley                   | sightseeing | Walk the meadows or relax by the Merced River      |
 | 14:00 | Mirror Lake Loop                  | sightseeing | ~5 mi loop, flat and easy; lake may be dry in autumn but valley views are great |
 | 16:00 | Sentinel Bridge — Half Dome View  | sightseeing | Good late afternoon light on Half Dome             |
-| 16:45 | Tunnel View                       | sightseeing | Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall |
-| 18:00 | Stay: Milpitas (3.5-4h) or Oakhurst? | accommodation | **Option A:** Drive ~3.5–4 hrs back to Milpitas (exit Yosemite ~18:00, arrive ~21:30–22:00) · **Option B:** Stay overnight in Oakhurst (~45 min from Yosemite south gate — closer base, more rest) |
+| 16:45 | Tunnel View                       | sightseeing   | Great spot for golden hour — sweeping panorama of El Capitan, Half Dome, and Bridalveil Fall |
+| 19:00 | Drive back to Milpitas            | travel        | ~3.5–4 hrs via CA-41 S then I-5 N or US-99 N to I-205 W to I-580 W — exit Yosemite ~19:00 |
+| 21:30 | Arrive Milpitas                   | accommodation | Back at home base — ~21:30–22:00 arrival |
 
 ## Day 14 — Oct ? | Livermore, CA
 | Time  | Activity                          | Category    | Notes |
