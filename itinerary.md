@@ -130,7 +130,7 @@
 | 11:15 | South Palm Drive                | sightseeing | Classic palm-lined Beverly Hills street — quick photo stop (~15-20 min) |
 | 11:30 | The Original Farmers Market     | food        | At 3rd & Fairfax since 1934 — great spot for lunch across many stalls |
 | 13:30 | The Grove                       | sightseeing | Outdoor shopping complex attached to Farmers Market; fountain and trolley |
-| 15:15 | LACMA                           | sightseeing | Urban Light installation out front — quick photo stop only (~15-20 min) |
+| 15:15 | LACMA Urban Light               | sightseeing | Urban Light installation out front — quick photo stop only (~15-20 min) |
 | 16:00 | Drive to Three Rivers           | travel      | ~265 miles via I-5 N → CA-99 N → CA-198 E → Hwy 198 into Three Rivers — approx 3.5–4 hrs |
 | 20:00 | Check in near Sequoia           | accommodation | **Option A:** Three Rivers (~15 min from Sequoia entrance) · **Option B:** Visalia (~45 min from entrance, more hotel options) · **Option C:** Oak Haven Cabin (inside Sequoia NP area — book in advance) |
 
